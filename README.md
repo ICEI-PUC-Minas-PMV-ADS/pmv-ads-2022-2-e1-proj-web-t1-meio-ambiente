@@ -2,9 +2,9 @@
 
 `CURSO`: Analise e Desenvolvimento de Sistemas 
 
-`DISCIPLINA`Desenvolvimento de Aplicação Web Front-End
+`DISCIPLINA`: Desenvolvimento de Aplicação Web Front-End
 
-`SEMESTRE`1º
+`SEMESTRE`: 1º
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
