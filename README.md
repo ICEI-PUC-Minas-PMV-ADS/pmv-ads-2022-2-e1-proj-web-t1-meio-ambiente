@@ -17,7 +17,7 @@ Sendo assim, o site trará materiais informativos sobre Educação ambiental, co
 * LUCAS MARCELO DIAS SOUZA 
 * LUIZ EDUARDO DE PAULA MORAIS 
 * PRICILLA BAIER DE ARAUJO
-*ROBERTA GOMES DE FREITAS 
+* ROBERTA GOMES DE FREITAS 
 
 
 ## Joyce 
