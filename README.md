@@ -6,7 +6,10 @@
 
 `SEMESTRE`: 1º
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O meio ambiente é o local onde engloba todos os elementos vivos e não vivos essencial para nossa vida na Terra. Cuidar e preservar desse benefício é um dever de todos, porém nos dias atuais a maioria se dispõe ao desmatamento, poluição e extinção.
+A compreensão e conhecimento sobre o meio ambiente, precisa ser trabalhada desde a infância até a idade adulta, propondo-se favorecer um relacionamento harmônico entre homem e natureza.
+
+Desta forma, o intuito do projeto é levar o conhecimento e a educação ambiental a todos aqueles que buscam saber 
 
 ## Integrantes
 
