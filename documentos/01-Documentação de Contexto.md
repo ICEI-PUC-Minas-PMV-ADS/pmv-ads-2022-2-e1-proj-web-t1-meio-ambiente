@@ -27,9 +27,12 @@ O objetivo deste projeto é criar um site com materiais informativos sobre Educa
 Como objetivos específicos, podemos ressaltar:
  
 ● Iniciar uma educação ambiental a partir do ensino fundamental.
+
 ● Apresentar um material educativo em que as escolas possam usar em salas de aula.
+
 ● Identificar pontos de coleta próximos, ajudando também as pessoas que trabalham com coleta.
  de lixo reciclável.
+ 
 ● Trazer informações da nossa atualidade com uma linguagem intuitiva, se encaixando em
  todas as faixas etárias.
 
