@@ -18,9 +18,9 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 *ROBERTA GOMES DE FREITAS 
 
 
-## Joyce Christina de Paiva Carvalho 
+## Joyce 
 
-* Nome completo do professor 1
+* Joyce Christina de Paiva Carvalho 
 
 ## Instruções de utilização
 
