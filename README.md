@@ -6,10 +6,9 @@
 
 `SEMESTRE`: 1º
 
-O meio ambiente é o local onde engloba todos os elementos vivos e não vivos essencial para nossa vida na Terra. Cuidar e preservar desse benefício é um dever de todos, porém nos dias atuais a maioria se dispõe ao desmatamento, poluição e extinção.
-A compreensão e conhecimento sobre o meio ambiente, precisa ser trabalhada desde a infância até a idade adulta, propondo-se favorecer um relacionamento harmônico entre homem e natureza.
+Todos têm direito ao meio ambiente ecologicamente equilibrado, bem de uso comum do povo e essencial à sadia qualidade de vida, impondo-se ao Poder Público e à coletividade o dever de defendê-lo e preservá-lo para as presentes e futuras gerações. Em suma, o intuito do projeto é proporcionar ao publico uma maneira intuitiva e divertida sobre a importania de cuidarmos do nosso planeta. 
 
-Desta forma, o intuito do projeto é levar o conhecimento e a educação ambiental a todos aqueles que buscam saber 
+Sendo assim, o site trará materiais informativos sobre Educação ambiental, com ferramentas de fácil usabilidade e inclusiva para pessoas de todas as idades. Permitindo também, a visualizações de pontos de coletas próximos. Selecionamos como público alvo crianças entre 8 e 12 anos que buscam aprender de forma criativa; pais que  buscam uma plataforma segura e eficiente onde também podem aprender; educadores que procuram um lugar onde possam buscar mais informações para agregar ao seu trabalho e os agentes de coletas de rejeitos.
 
 ## Integrantes
 
