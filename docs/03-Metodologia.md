@@ -12,9 +12,13 @@ Relação de Ambientes de Trabalho
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue. 
 
 | Ambiente | Plataforma | Link de Acesso |
-| Repositório de código fonte| GitHub |
+
+| Repositório de código fonte | GitHub | Ainda não há um repositorio de código fonte.
+
 | Documentos do projeto | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t1-meio-ambiente |
+
 | Projeto de Interface e  Wireframes | Canva | https://www.canva.com/design/DAFNieyI9Bc/zf-XYPpn1reo8C85i4zUww/edit?utm_content=DAFNieyI9Bc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton |
+
 | Gerenciamento do Projeto | Trello | https://trello.com/b/aSFR3E9z/projeto-de-reciclagemsave-the-planet |
 
 
@@ -33,8 +37,11 @@ A equipe está organizada da seguinte maneira:
 ●     Equipe de Desenvolvimento:
 
 ○     José Flávio
+
 ○     Luiz Eduardo
+
 ○     Lucas Marcelo
+
 
 ●     Equipe de Design:
 
@@ -44,10 +51,13 @@ A equipe está organizada da seguinte maneira:
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub Project, estruturado com as seguintes listas:
  
-●     Backlog: Requisitos do projeto, inclusos na documentação de projeto.
+●  Backlog: Requisitos do projeto, inclusos na documentação de projeto.
+
 ●  To Do: Utilizar o GitHub, completar as documentações necessárias e iniciar o processo de programação do projeto.
+
 ●  	Doing: Aprendendo a utilização do GitHub, idealizando a arquitetura e o wireframe do nosso produto.
-●     Done: Listas de requisitos e funcionalidades do produto, junto com seu objetivo e nossa intenção/desejo como criadores e executores do projeto.
+
+●   Done: Listas de requisitos e funcionalidades do produto, junto com seu objetivo e nossa intenção/desejo como criadores e executores do projeto.
 
 ### Ferramentas
 
