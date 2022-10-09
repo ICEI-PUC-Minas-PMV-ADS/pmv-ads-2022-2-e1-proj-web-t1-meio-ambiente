@@ -23,8 +23,7 @@ A solução implementada conta com os seguintes módulos:
      - **Maps API** - plataforma que permite o acesso aos mapas de localização de coleta seletiva exibidas no site.
      - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador.
      - **YouTube API** - plataforma que permite o acesso aos vídeos exibidas no site.
-      https://www.canva.com/design/DAFNieyI9Bc/_HWC1q6ZDhcX4QCNoM3w3Q/view?utm_content=DAFNieyI9Bc&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel#10
-
+   https://user-images.githubusercontent.com/93801572/194775308-6ab5de57-a92f-4f7f-9e30-481547443cde.png
 > **Links Úteis**:
 >
 > - [Whimsical](https://whimsical.com/)
