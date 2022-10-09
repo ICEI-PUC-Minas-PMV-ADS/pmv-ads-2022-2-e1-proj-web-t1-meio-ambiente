@@ -22,9 +22,9 @@ A solução implementada conta com os seguintes módulos:
      - **Canais** - seções de notícias apresentadas 
      - **Atividades de fixação** - seções de atividades apresentadas para a fixação do conteúdo
      - **Preferidas** - lista de notícias mantidas para leitura e acesso posterior
-● **Maps API** - plataforma que permite o acesso aos mapas de localização de coleta seletiva exibidas no site.
-● **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador.
-● **YouTube API** - plataforma que permite o acesso aos vídeos exibidas no site.
+     - **Maps API** - plataforma que permite o acesso aos mapas de localização de coleta seletiva exibidas no site.
+     - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador.
+     - **YouTube API** - plataforma que permite o acesso aos vídeos exibidas no site.
 
 > **Links Úteis**:
 >
