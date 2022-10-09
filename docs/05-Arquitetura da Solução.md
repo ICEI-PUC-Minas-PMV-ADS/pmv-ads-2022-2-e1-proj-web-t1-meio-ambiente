@@ -10,8 +10,6 @@ Nesta seção são apresentados os detalhes técnicos da solução criada pela e
 Diagrama que permite a modelagem física de um sistema, através da visão dos seus componentes e relacionamentos entre os mesmos.
 Os componentes que fazem parte da solução são apresentados na Figura que se segue.
 
-Os componentes que fazem parte da solução são apresentados na Figura XX.
-
 
 <center>Figura XX - Arquitetura da Solução</center>
 
