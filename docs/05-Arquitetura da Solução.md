@@ -4,6 +4,16 @@
 
 Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
+5. Arquitetura da Solução
+Nesta seção são apresentados os detalhes técnicos da solução criada pela equipe, tratando dos componentes que fazem parte da solução e do ambiente de hospedagem da solução.
+ 
+Diagrama de Componentes
+Os componentes que fazem parte da solução são apresentados na Figura que se segue.
+
+A solução implementada conta com os seguintes módulos:
+
+
+
 ## Diagrama de componentes
 
 Diagrama que permite a modelagem física de um sistema, através da visão dos seus componentes e relacionamentos entre os mesmos.
