@@ -13,6 +13,8 @@ Os componentes que fazem parte da solução são apresentados na Figura que se s
 
 <center>Figura XX - Arquitetura da Solução</center>
 
+   https://user-images.githubusercontent.com/93801572/194775308-6ab5de57-a92f-4f7f-9e30-481547443cde.png
+
 A solução implementada conta com os seguintes módulos:
 - **Navegador** - Interface básica do sistema  
   - **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
@@ -23,7 +25,7 @@ A solução implementada conta com os seguintes módulos:
      - **Maps API** - plataforma que permite o acesso aos mapas de localização de coleta seletiva exibidas no site.
      - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador.
      - **YouTube API** - plataforma que permite o acesso aos vídeos exibidas no site.
-   https://user-images.githubusercontent.com/93801572/194775308-6ab5de57-a92f-4f7f-9e30-481547443cde.png
+     
 > **Links Úteis**:
 >
 > - [Whimsical](https://whimsical.com/)
