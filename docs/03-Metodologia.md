@@ -59,9 +59,8 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 ●   Done: Listas de requisitos e funcionalidades do produto, junto com seu objetivo e nossa intenção/desejo como criadores e executores do projeto.
 
-O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos Trello está disponível através da URL https://trello.com/b/aSFR3E9z/projeto-de-reciclagemsave-the e é apresentado, no estado atual, na Figura.
+O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos Trello está disponível através da URL https://trello.com/b/aSFR3E9z/projeto-de-reciclagemsave-the e é apresentado, no estado atual, na figura a seguir.
 
-O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos Trello está disponível através da URL https://trello.com/b/aSFR3E9z/projeto-de-reciclagemsave-the e é apresentado, no estado atual, na Figura.
 
 ![WhatsApp Image 2022-10-10 at 16 52 36](https://user-images.githubusercontent.com/114036574/194942429-7edad342-3247-4c33-b5b7-66b015cb640f.jpeg)
 
