@@ -10,11 +10,10 @@ Nesta seção são apresentados os detalhes técnicos da solução criada pela e
 Diagrama que permite a modelagem física de um sistema, através da visão dos seus componentes e relacionamentos entre os mesmos.
 Os componentes que fazem parte da solução são apresentados na Figura que se segue.
 
+![WhatsApp Image 2022-10-09 at 05 57 27](https://user-images.githubusercontent.com/114036574/194940324-221b084a-ec98-47d6-861c-9e98e298ac46.jpeg)
 
-<center>Figura XX - Arquitetura da Solução</center>
 
-   https://user-images.githubusercontent.com/93801572/194775308-6ab5de57-a92f-4f7f-9e30-481547443cde.png
-
+  
 A solução implementada conta com os seguintes módulos:
 - **Navegador** - Interface básica do sistema  
   - **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
@@ -26,9 +25,6 @@ A solução implementada conta com os seguintes módulos:
      - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador.
      - **YouTube API** - plataforma que permite o acesso aos vídeos exibidas no site.
      
-> **Links Úteis**:
->
-> - [Whimsical](https://whimsical.com/)
 
 
 ## Hospedagem
@@ -41,9 +37,3 @@ A publicação do site no Heroku é feita por meio de uma submissão do projeto 
 https://git.heroku.com/link_exemplo.git
 
 
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
