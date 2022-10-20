@@ -21,7 +21,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
 
 A partir da compreensão do dia a dia das pessoas identificadas para o projeto, foram registradas as seguintes histórias de usuários.
 
-|EU COMO...PERSONA|QUERO/PRECISO ...FUNCIONALIDADE|PARA ... MOTIVO/VALOR|              
+|EU COMO...`PERSONA`|QUERO/PRECISO ...`FUNCIONALIDADE`|PARA ... `MOTIVO/VALOR`|              
 |-----------------|-------------------------------|---------------------|
 |Francisco Souza|Um site que tenha vídeos do youtube ensinando sobre lixo reciclável.|Para gastar menos tempo lendo.|
 |Francisco Souza|Um site onde consiga salvar o conteúdo que já viu.|Para conseguir acessar mais depois se precisar.|
