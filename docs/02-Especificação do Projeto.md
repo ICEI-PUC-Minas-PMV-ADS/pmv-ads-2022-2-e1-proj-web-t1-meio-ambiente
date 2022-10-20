@@ -21,16 +21,14 @@ As personas levantadas durante o processo de entendimento do problema são apres
 
 A partir da compreensão do dia a dia das pessoas identificadas para o projeto, foram registradas as seguintes histórias de usuários.
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|EU COMO...PERSONA|QUERO/PRECISO ...FUNCIONALIDADE|PARA ... MOTIVO/VALOR|              
+|-----------------|-------------------------------|---------------------|
 |Francisco Souza|Um site que tenha vídeos do youtube ensinando sobre lixo reciclável.|Para gastar menos tempo lendo.|
 |Francisco Souza|Um site onde consiga salvar o conteúdo que já viu.|Para conseguir acessar mais depois se precisar.|
-
-|João Souza|Um site que consiga localizar o conteúdo desejado através de uma barra de pesquisa.|Para localizar mais rápido algum conteúdo.|
+|João Souza|Um site que consiga localizar o conteúdo desejado através de uma barra de pesquisa.| Para localizar mais rápido algum conteúdo.|
 |João Souza|Um site que fale sobre educação ambiental e que possibilite a interação entre diversas idades|Para que ele e seu filho possam compartilhar de momentos de estudos juntos.|
-
-|Luiza Ferreira|Um site com atividades interativas para fixação do conteúdo aprendido pelos seus alunos.| Para passar para seus alunos e ter mais uma ferramenta de ajuda para educação.|
+|Luiza Ferreira|Um site com atividades interativas para fixação do conteúdo aprendido pelos seus alunos.|Para passar para seus alunos e ter mais uma ferramenta de ajuda para educação.|
 |Luiza Ferreira|Um site que consiga visualizar o texto completo da matéria com todos os detalhes descritos.|Para seus alunos terem mais interesse pelo conteúdo.|
-
 |Maria Francisca|Um site que mostra a localização onde a coleta de material reciclado é realizada mais próxima.|Para facilitar o seu trabalho na ONG e passar mais informação para a população.|
 |Maria Francisca|Um site onde consiga compartilhar as informações nas redes sociais.|Para conseguir informar mais pessoas possível sobre o assunto.|
 
