@@ -9,12 +9,17 @@ A tela principal do sistema apresenta um vídeo de destaque de um tema abordado 
 
 
 Requisitos atendidos
+
 ●	RF-04 - 
+
 ●	RF-08 - 
 
 Artefatos da funcionalidade
+
 ●	index.html
+
 ●	style.css
+
 ●	script.js
 
 Estrutura de Dados
