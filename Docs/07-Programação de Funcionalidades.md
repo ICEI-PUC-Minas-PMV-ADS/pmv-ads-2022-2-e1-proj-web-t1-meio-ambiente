@@ -3,7 +3,8 @@
 Visualização de vídeos e atividade de fixação (RF-04 e RF-08)
 A tela principal do sistema apresenta um vídeo de destaque de um tema abordado sobre educação ambiental e uma atividade relacionada ao vídeo apresentado. O vídeo e a atividade de fixação são armazenados no LocalStorage com estruturas dados baseada em JSON. Um exemplo da tela é apresentado na Figura X. 
 
-![image](https://user-images.githubusercontent.com/114036574/198420558-76215eb4-4a42-4622-b416-d7940d53534c.png)
+![image](https://user-images.githubusercontent.com/114036574/198749428-1035e5cd-867f-4b5b-b76b-a839a6a3a4ba.png)
+
 
 
 
