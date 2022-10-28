@@ -14,13 +14,6 @@ Requisitos atendidos
 
 ●	RF-08 - 
 
-Artefatos da funcionalidade
-
-●	index.html
-
-●	style.css
-
-●	script.js
 
 Estrutura de Dados
 
