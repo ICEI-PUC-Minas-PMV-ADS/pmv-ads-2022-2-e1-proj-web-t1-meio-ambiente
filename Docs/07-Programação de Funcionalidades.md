@@ -1,6 +1,6 @@
 # Programação de Funcionalidades
 
-Visualização de vídeos e atividade de fixação (RF-04 e RF-08)
+Visualização de vídeos, atividade de fixação  e barra de pesquisa para localização de contéudo (RF-04, RF-05 RF-08)
 A tela principal do sistema apresenta um vídeo de destaque de um tema abordado sobre educação ambiental e uma atividade relacionada ao vídeo apresentado. O vídeo e a atividade de fixação são armazenados no LocalStorage com estruturas dados baseada em JSON. Um exemplo da tela é apresentado na Figura X. 
 
 ![image](https://user-images.githubusercontent.com/114036574/198754126-9c0fcac1-0ba0-498a-878a-4afff144ec0b.png)
@@ -14,15 +14,27 @@ Requisitos atendidos
 
 ●	RF-04 - 
 
+●   RF-05 -
+
 ●	RF-08 - 
 
-●   RF-005 -
+
+Artefatos da funcionalidade
+
+● index.html
+
+● style.css
+
+● script.js
+
+
+
 
 
 Estrutura de Dados
 
-<!DOCTYPE html>
-<html lang="pt-br">
+   <!DOCTYPE html>
+   <html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -105,11 +117,10 @@ Estrutura de Dados
 
 
   
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap');
-  
-@import url('https://www.remessaonline.com.br/blog/tabela-de-cores-html-veja-os-codigos-para-aplicar-cores-nas-tags-html/');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap');
+    @import url('https://www.remessaonline.com.br/blog/tabela-de-cores-html-veja-os-codigos-para-aplicar-cores-nas-tags-html/');
 
- *{
+    *{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
@@ -120,7 +131,7 @@ Estrutura de Dados
     transition: 2s linear;
     }
   
-.header{
+    .header{
   
     background: var(--bg);
     display: flex;
@@ -129,31 +140,31 @@ Estrutura de Dados
     padding: 1.5rem 7%;
     border-bottom: var(--border);
     top: 0; left: 0; right: 0;
-}
+    }
   
-.header .logo img{
+    .header .logo img{
     height: 3.5rem;
-}
+    }
   
-.header .navbar a{
+    .header .navbar a{
     margin: 0 1rem;
     font-size: 20px;
     text-decoration: none;
     justify-content: space-between;
     font-weight: bold;
     color: rgb(8, 8, 8);
-}
+    }
   
-#Busca{
+    #Busca{
     background-color: #ffffff;
     border: solid 1px #114d23;
     border-radius: 5px;
     width: 300px;
     height: 32px;
     padding: right 100px;
-}
+    }
   
-#txtBusca{
+    #txtBusca{
     text-align: left;
     align-items: center;
     background-color: transparent;
@@ -162,18 +173,18 @@ Estrutura de Dados
     border: none;
     height: 28px;
     width: 191px;
-}
+    }
   
-.section{
+    .section{
     position: absolute;
     top: 10%;
     width: 100%;
     text-align: center-left;
     padding: 60px;
     border: none;
-}
+    }
   
-.video{
+    .video{
     display: table;
     border: transparent thin solid;
     padding: 1px;
@@ -181,15 +192,15 @@ Estrutura de Dados
     height: 410px;
     position: fixed;
     float: right;
-}
+    }
   
-.atividade{
+    .atividade{
     display: table-cell;
     align-items: right;
     float: right;
-}
+    }
   
-#wrapper, .perguntas {
+    #wrapper, .perguntas {
     margin-top: 40px;
     width: 100%;
     display: table-cell;
@@ -199,9 +210,9 @@ Estrutura de Dados
     width: 300px;
     margin-top: 5px;
     margin-left: 589px;
-}
+    }
   
-#wrapper div, #wrapper ul {
+    #wrapper div, #wrapper ul {
     width: 50%;
     max-width: 300px;
     display: table-cell;
@@ -209,13 +220,13 @@ Estrutura de Dados
     float: right;
     width: 300px;
     margin-top: 5px;
-}
+    }
   
-ul {
+    ul {
     padding: 0px;
-}
+    }
 
-#titulo {
+    #titulo {
     font-size: 18px;
     font-weight: bold;
     background: #32CD32;
@@ -224,9 +235,9 @@ ul {
     max-width: 300px;
     text-align: center;
       
-}
+    }
 
-.alternativa {
+    .alternativa {
     list-style-type: none;
     margin-bottom: 4px;
     padding: 10px;
@@ -234,142 +245,143 @@ ul {
     text-align-last: center;
     text-decoration-color: black;
    
-}
+    }
 
-.alternativa:hover {
+    .alternativa:hover {
     cursor: pointer;
     opacity: 0.8;
     background: black;
     
-}
+    }
 
-#result {
+    #result {
     font-weight: bold;
     width: 20px;
     max-width: 300px;
     
-}
-
-#pontos, #result {
-    color: black;
-}
-
-.atividade{
+    }
  
-        font-family: 'Georgia' !important;   
-        font-size:20px;
-        margin: 0 ;
-        padding: 0 00%;
-        font-weight: 0;
-        text-align: center;
-        font-display: center;
+    #pontos, #result {
+    color: black;
+    }
+
+    .atividade{
+ 
+    font-family: 'Georgia' !important;   
+    font-size:20px;
+    margin: 0 ;
+    padding: 0 00%;
+    font-weight: 0;
+    text-align: center;
+    font-display: center;
         
-        
-     
-}
+      
+    }
 
-
-let perguntas = [
+    
+    
+   
+    let perguntas = [
 
     { 
-        titulo: 'Em qual lixeira devemos descartar os papeis ?',
-        alternativas:['Amarelo', 'Azul', 'Vermelha', 'Verde'],
-        correta: 1
+    titulo: 'Em qual lixeira devemos descartar os papeis ?',
+    alternativas:['Amarelo', 'Azul', 'Vermelha', 'Verde'],
+    correta: 1
     },
     { 
-        titulo: 'Como devemos descartar o lixo que produzimos ?',
-        alternativas:['Rua', 'Boeiro', 'Lixeira', 'Rios'],
-        correta: 2
+    titulo: 'Como devemos descartar o lixo que produzimos ?',
+    alternativas:['Rua', 'Boeiro', 'Lixeira', 'Rios'],
+    correta: 2
     },
     { 
-        titulo: 'Em qual lixeira devemos descartar os vidros ?',
-        alternativas:['Amarelo', 'Azul', 'Vermelha', 'Verde'],
-        correta: 3
+    titulo: 'Em qual lixeira devemos descartar os vidros ?',
+    alternativas:['Amarelo', 'Azul', 'Vermelha', 'Verde'],
+    correta: 3
     },
     { 
-        titulo: 'Em qual lixeira devemos descartar os metais ?',
-        alternativas:['Amarelo', 'Azul', 'Vermelha', 'Verde'],
-        correta: 0
+    titulo: 'Em qual lixeira devemos descartar os metais ?',
+    alternativas:['Amarelo', 'Azul', 'Vermelha', 'Verde'],
+    correta: 0
     }
     ]
     let app= {
     start: function(){
     
-        this.Atualpos = 0;
-        this.Totalpontos = 0;
+    this.Atualpos = 0;
+    this.Totalpontos = 0;
     
-        let alts = document.querySelectorAll('.alternativa');
-        alts.forEach((element, index)=>{
-                  element.addEventListener('click', ()=>{
-                this.checaResposta(index);
-          })
-        })
-        this.atualizaPontos();
-        app.mostraquestao(perguntas[this.Atualpos]);
+    let alts = document.querySelectorAll('.alternativa');
+    alts.forEach((element, index)=>{
+    element.addEventListener('click', ()=>{
+    this.checaResposta(index);
+    })
+    })
+    this.atualizaPontos();
+    app.mostraquestao(perguntas[this.Atualpos]);
     },
     
     mostraquestao: function(q){
-        this.qatual = q;
-        // mostrando o titulo
-        let titleDiv = document.getElementById('titulo');
-        titleDiv.textContent = q.titulo;
+    this.qatual = q;
+    // mostrando o titulo
+    let titleDiv = document.getElementById('titulo');
+    titleDiv.textContent = q.titulo;
     
-        // mosrando as alternativas
-        let alts = document.querySelectorAll('.alternativa');
-        alts.forEach(function (element, index) {
-            element.textContent = q.alternativas[index];
-        });
+    // mosrando as alternativas
+    let alts = document.querySelectorAll('.alternativa');
+    alts.forEach(function (element, index) {
+    element.textContent = q.alternativas[index];
+    });
     
     
     },
     
     Proximaperg: function(){
-        this.Atualpos++;
-        if(this.Atualpos == perguntas.length){
-            this.Atualpos = 0;
-        }
+    this.Atualpos++;
+    if(this.Atualpos == perguntas.length){
+    this.Atualpos = 0;
+    }
     },
     
     checaResposta: function(user){
-        if(this.qatual.correta == user){
-            console.log("Correta")
-            this.Totalpontos++;
-            this.mostraresposta();
-        }
-        else{
-            console.log("Errada")
-            this.mostraresposta();
-        }
+    if(this.qatual.correta == user){
+    console.log("Correta")
+    this.Totalpontos++;
+    this.mostraresposta();
+    }
+    else{
+    console.log("Errada")
+    this.mostraresposta();
+    }
     this.atualizaPontos();
     this.Proximaperg();
     this.mostraquestao(perguntas[this.Atualpos]);
     },
     
     atualizaPontos: function(){
-        let scoreDiv = document.getElementById('pontos');
-        scoreDiv.textContent = `Sua pontuação é: ${this.Totalpontos}`;
+    let scoreDiv = document.getElementById('pontos');
+    scoreDiv.textContent = `Sua pontuação é: ${this.Totalpontos}`;
     
     },
     
     mostraresposta: function(correta){
 
-        let resultDiv = document.getElementById('result');
-        let result = '';
-        // formatar com a mensagem será exibida
-        if(correta){
+    let resultDiv = document.getElementById('result');
+    let result = '';
+    // formatar com a mensagem será exibida
+    if(correta){
             
-            result = 'Parabéns! Você acertou!';
-        }
-        else{
-            // obtendo a questão atual
-            let pergunta = perguntas[this.Atualpos];
-            // obtenha o indice da resposta correta da questão atual
-            let cindice = pergunta.correta;
-            // obtenha o texto da resposta correta da questão atual
-            let ctexto = pergunta.alternativas[cindice];
-            result = `Resposta correta: ${ctexto}`;
-        }
-        resultDiv.textContent = result;
+    result = 'Parabéns! Você acertou!';
+    }
+    else{
+    // obtendo a questão atual
+    let pergunta = perguntas[this.Atualpos];
+    // obtenha o indice da resposta correta da questão atual
+    let cindice = pergunta.correta;
+    // obtenha o texto da resposta correta da questão atual
+    let ctexto = pergunta.alternativas[cindice];
+    result = `Resposta correta: ${ctexto}`;
+    }
+    resultDiv.textContent = result;
     
     }
     
@@ -384,13 +396,212 @@ Instruções de acesso
 4.	Abra um navegador de Internet e informe a seguinte URL:
 http://localhost:5500/index.html 
 
+    
+    # Programação de Funcionalidades
+
+Visualização da localização de alguns pontos de coleta de lixo reciclavel e barra de pesquisa para localização de contéudo (RF-03 e RF-05)
+A tela principal do sistema apresenta algumas localizações de pontos de coletas de lixo reciclavel e ao clicar em clique aqui será direcionado para a pagina de cada organização responsavel por essa coleta. O texto com os nomes e endereços dos locais tal como o site da pagina resposanvel e a barra de pesquisa são armazenados no LocalStorage com estruturas dados baseada em JSON. Um exemplo da tela é apresentado na Figura X. 
+
+![localizacao](https://user-images.githubusercontent.com/114036574/198755784-b4fd1c39-a0ed-4260-86ab-0887bc5606c6.png)
+
+
+
+Requisitos atendidos
+
+●	RF-03 - 
+
+●   RF-05 -
+    
+    
+Artefatos da funcionalidade
+    
+● index.html
+    
+● style.css
+
+
+Estrutura de Dados
 
   
+  <!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Save The Planet">
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <title>Save The Planet</title>
+    <link rel="stylesheet" href="localizacao.style.css">
+
+</head>
+
+<body>
+    <!-- header section starts here-->
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="logo.png" alt="logo">
+        </a>
+
+        <div id="Busca">
+            <input type="text" id="txtBusca" placeholder="Buscar..." />
+            <button id="btnBusca"></button>
+        </div>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+
+        </nav>
+
+
+    </header>
+
+    <main>
+
+
+        <div class="localização">
+
+            <h1>Veja aqui alguns pontos de coletas</h1><br>
+
+
+        </div>
+
+        <ul>
+           
+                <p><b>
+                    <li class="Localização"> BH Recicla Reciclagem de Lixo Eletrônico e Outras Sucatas. - Endereço: Av.
+                        General David Sarnoff, 2690 - Cidade Industrial, Contagem - MG, 32210-110
+                        Áreas atendidas: Contagem e as proximidades <a href="https://bhrecicla.com.br/">Clique aqui.</a>
+                    </li></p><br>
+                    <p>
+                    <li class="Localização"> URPV - Unidade de Recebimento de Pequenos Volumes - Liberdade - Endereço:
+                        R. Flôr de Índio, 105 - Liberdade, Belo Horizonte - MG, 31270-215 <a
+                            href="https://prefeitura.pbh.gov.br/slu/informacoes/servicos/urpvs-enderecos">Clique
+                            aqui.</a></li></p><br>
+                            <p>
+                    <li class="Localização"> CMR - Reciclagem de Resíduos e Sucatas Ltda - Endereço: R. Paracatu, 15 -
+                        Barro Preto, Belo Horizonte - MG, 30180-090
+                        Áreas atendidas: Região Metropolitana de Belo Horizonte <a
+                            href="https://cmrreciclagem.com.br/">Clique aqui.</a></li></p><br>
+                            <p>
+                    <li class="Localização"> Reciclagem Tc - Endereço: Av. Teresa Cristina - Betânia, Belo Horizonte -
+                        MG, 30662-537 <a href="https://www.reciclagemtc.com.br/">Clique aqui.</a></li></p><br>
+                    </b>
+        </ul>
+        
+    </main>
+
+
+    <footer>
+
+        <body>
+
+
+            <nav class="roda-pé">
+                <ul>
+                    <b>
+                        <li>Contato</li>
+                        <li>Sobre</li>
+                    </b>
+
+                    </u>
+            </nav>
+        </body>
+    </footer>
+    
+    
+    
+    
+   
+    
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap');
+    @import url('https://www.remessaonline.com.br/blog/tabela-de-cores-html-veja-os-codigos-para-aplicar-cores-nas-tags-html/');
+
+    * {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: capitalize;
+    transition: 2s linear;
+    
+    }
+
+    .header{
+    background: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    border-bottom: var(--border);
+    top: 0; left: 0; right: 0;
+    }
+
+    .header .logo img{
+    height: 3.5rem;
+    }
+
+    .header .navbar a{
+    margin: 0 1rem;
+    font-size: 20px;
+    text-decoration: none;
+    justify-content: space-between;
+    font-weight: bold;
+    color: rgb(8, 8, 8);
+    }
+
+    #Busca{
+    background-color: #ffffff;
+    border: solid 1px #114d23;
+    border-radius: 5px;
+    width: 300px;
+    height: 32px;
+    padding: right 100px;
+    }
+    #txtBusca{
+    text-align: left;
+    align-items: center;
+    background-color: transparent;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    height: 28px;
+    width: 191px;
+
+    }
+
+    .localização li p ul{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    padding: 60px;
+    border: none;
+    color:black
+    
+    }
+
+    footer {
+    background-color: #32CD32;
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    }
   
   
   
-  
-  
+  Instruções de acesso
+    
+1.	Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
+2.	Descompacte o arquivo em uma pasta específica;
+3.	Abra o Visual Studio Code e execute o Live Server;
+4.	Abra um navegador de Internet e informe a seguinte URL:http://localhost:5500/index.html 
+
   
   
   
