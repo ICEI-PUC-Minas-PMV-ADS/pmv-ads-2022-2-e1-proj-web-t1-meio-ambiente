@@ -44,9 +44,8 @@ A tabela a seguir apresenta os requisitos do projeto, constatando a prioridade e
 |------|-----------------------------------------|----|
 |RF-001| O site deve conter material de estudo voltado somente para Educação Ambiental, abrangendo todas idades.| ALTA | 
 |RF-002| O site deve permitir ao usuário visualizar o texto completo da matéria com todos os detalhes descritos.| ALTA |
-|RF-003| O site deve permitir a localização de pontos de coleta próximos, integrado ao Google Maps para facilitar a visualização do local.| ALTA |
-|RF-004| O site deve oferecer vídeos sobre lixo reciclável, entre outros temas.
-| MÉDIA |
+|RF-003| O site deve permitir a localização de pontos de coleta próximos.| ALTA |
+|RF-004| O site deve oferecer vídeos sobre lixo reciclável, entre outros temas.| MÉDIA |
 |RF-005| O site deve ter uma funcionalidade de pesquisa para permitir ao usuário localizar um texto específico que será informado na caixa de pesquisa.| MÉDIA | 
 |RF-006| O site deve permitir o compartilhamento de alguma matéria em redes sociais.| BAIXA | 
 |RF-007| O site deve permitir salvar e visualizar conteúdo preferido.| BAIXA | 
