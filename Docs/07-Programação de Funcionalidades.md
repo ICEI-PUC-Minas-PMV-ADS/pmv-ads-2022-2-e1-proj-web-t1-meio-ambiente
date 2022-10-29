@@ -16,6 +16,8 @@ Requisitos atendidos
 
 ●	RF-08 - 
 
+●   RF-005 -
+
 
 Estrutura de Dados
 
