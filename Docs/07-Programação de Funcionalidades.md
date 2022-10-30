@@ -3,7 +3,8 @@
 Visualização de vídeos, atividade de fixação  e barra de pesquisa para localização de contéudo (RF-04, RF-05 RF-08)
 A tela principal do sistema apresenta um vídeo de destaque de um tema abordado sobre educação ambiental e uma atividade relacionada ao vídeo apresentado. O vídeo e a atividade de fixação são armazenados no LocalStorage com estruturas dados baseada em JSON. Um exemplo da tela é apresentado na Figura X. 
 
-![image](https://user-images.githubusercontent.com/114036574/198754126-9c0fcac1-0ba0-498a-878a-4afff144ec0b.png)
+![videos e atividade de fixação](https://user-images.githubusercontent.com/114036574/198889190-3332217e-2989-4b3d-b815-8f7c511d8aa4.png)
+
 
 
 
@@ -12,7 +13,7 @@ Requisitos atendidos
 
 ●	RF-04 - 
 
-●   RF-05 -
+●  RF-05 -
 
 ●	RF-08 - 
 
@@ -31,11 +32,17 @@ Artefatos da funcionalidade
 
 Estrutura de Dados
 
-<
+INDEX_HTML
+
+
+```html
+
+
+
    <!DOCTYPE html>
    <html lang="pt-br">
 
-<head>
+    <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -113,8 +120,15 @@ Estrutura de Dados
        
 
 </html>
+  
+      
+```
 
-
+    
+ STYLE_CSS
+      
+      
+```css
   
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap');
     @import url('https://www.remessaonline.com.br/blog/tabela-de-cores-html-veja-os-codigos-para-aplicar-cores-nas-tags-html/');
@@ -273,12 +287,19 @@ Estrutura de Dados
     font-weight: 0;
     text-align: center;
     font-display: center;
-        
+      
+    
       
     }
+    
+```   
 
+
+ SCRIPT.JS
     
     
+```jS
+
    
     let perguntas = [
 
@@ -386,6 +407,9 @@ Estrutura de Dados
     
     }
     app.start();
+      
+      
+```
 
   
 Instruções de acesso
@@ -401,7 +425,7 @@ http://localhost:5500/index.html
 Visualização da localização de alguns pontos de coleta de lixo reciclavel e barra de pesquisa para localização de contéudo (RF-03 e RF-05)
 A tela principal do sistema apresenta algumas localizações de pontos de coletas de lixo reciclavel e ao clicar em clique aqui será direcionado para a pagina de cada organização responsavel por essa coleta. O texto com os nomes e endereços dos locais tal como o site da pagina resposanvel e a barra de pesquisa são armazenados no LocalStorage com estruturas dados baseada em JSON. Um exemplo da tela é apresentado na Figura X. 
 
-![localizacao](https://user-images.githubusercontent.com/114036574/198755784-b4fd1c39-a0ed-4260-86ab-0887bc5606c6.png)
+![localizacao](https://user-images.githubusercontent.com/114036574/198889226-1fb30aff-d9f9-43a5-960a-8d205255780e.png)
 
 
 
@@ -421,9 +445,13 @@ Artefatos da funcionalidade
 
 Estrutura de Dados
 
-  
-  <!DOCTYPE html>
-<html lang="pt-br">
+
+INDEX _ HTML
+
+```html
+
+   <!DOCTYPE html>
+   html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -473,46 +501,49 @@ Estrutura de Dados
                         General David Sarnoff, 2690 - Cidade Industrial, Contagem - MG, 32210-110
                         Áreas atendidas: Contagem e as proximidades <a href="https://bhrecicla.com.br/">Clique aqui.</a>
                     </li></p><br>
-                    <p>
-                    <li class="Localização"> URPV - Unidade de Recebimento de Pequenos Volumes - Liberdade - Endereço:
-                        R. Flôr de Índio, 105 - Liberdade, Belo Horizonte - MG, 31270-215 <a
+                     <p><b>
+
+                   
+                    <li class="Localização2"> URPV - Unidade de Recebimento de Pequenos Volumes - Liberdade -
+                        Endereço:R. Flôr de Índio, 105 - Liberdade, Belo Horizonte - MG, 31270-215 <a
                             href="https://prefeitura.pbh.gov.br/slu/informacoes/servicos/urpvs-enderecos">Clique
-                            aqui.</a></li></p><br>
-                            <p>
-                    <li class="Localização"> CMR - Reciclagem de Resíduos e Sucatas Ltda - Endereço: R. Paracatu, 15 -
-                        Barro Preto, Belo Horizonte - MG, 30180-090
+                            aqui.</a></li><br>
+                            
+                    <li class="Localização3"> CMR - Reciclagem de Resíduos e Sucatas Ltda -
+                        Endereço: R. Paracatu, 15 - Barro Preto, Belo Horizonte - MG, 30180-090
                         Áreas atendidas: Região Metropolitana de Belo Horizonte <a
                             href="https://cmrreciclagem.com.br/">Clique aqui.</a></li></p><br>
-                            <p>
-                    <li class="Localização"> Reciclagem Tc - Endereço: Av. Teresa Cristina - Betânia, Belo Horizonte -
-                        MG, 30662-537 <a href="https://www.reciclagemtc.com.br/">Clique aqui.</a></li></p><br>
+                            
+                    <li class="Localização4"> Reciclagem Tc - 
+                        Endereço: Av. Teresa Cristina - Betânia, Belo Horizonte - MG, 30662-537 <a href="https://www.reciclagemtc.com.br/">Clique aqui.</a></li></p><br>
+
+
+                        <li class="Localização1"> BH Recicla Reciclagem de Lixo Eletrônico e Outras Sucatas -
+                            Endereço: Av.General David Sarnoff, 2690 - Cidade Industrial, Contagem - MG, 32210-110
+                            Áreas atendidas: Contagem e as proximidades <a href="https://bhrecicla.com.br/">Clique aqui.</a>
+                        </li></p><br>
+                        
                     </b>
         </ul>
-        
+    
     </main>
 
 
-    <footer>
+       
+</html>
 
-        <body>
 
-
-            <nav class="roda-pé">
-                <ul>
-                    <b>
-                        <li>Contato</li>
-                        <li>Sobre</li>
-                    </b>
-
-                    </u>
-            </nav>
-        </body>
-    </footer>
     
     
+```    
+
+
+ STYLE.CSS
+
+
+```css
     
-    
-   
+     
     
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap');
     @import url('https://www.remessaonline.com.br/blog/tabela-de-cores-html-veja-os-codigos-para-aplicar-cores-nas-tags-html/');
@@ -572,27 +603,21 @@ Estrutura de Dados
 
     }
 
-    .localização li p ul{
-    position: absolute;
+    .localização> h1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     top: 10%;
-    width: 100%;
-    text-align: center;
+    width: 50%;
     padding: 60px;
-    border: none;
-    color:black
     
-    }
-
-    footer {
-    background-color: #32CD32;
-    width: 100%;
-    height: 80px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    }
+   }
+    .localização{
+    margin-top: -1%;
+   
+   }
   
-  
+  ```
   
   Instruções de acesso
     
@@ -614,6 +639,10 @@ A tela de noticias apresenta noticias atualizadas no dia a dia referente ao Meio
 * style.css
    
    - Estruturas de Dados:
+
+INDEX_HTML
+
+```html
    
    <!DOCTYPE html>
 <html lang="en">
@@ -662,8 +691,6 @@ A tela de noticias apresenta noticias atualizadas no dia a dia referente ao Meio
         <div class="container">
             <img src="./img/Toneladas.lixo.jpg" width="500" height="500" /></img>
         </div>
-
-
 
         <!-- style to create vertical line -->
         <style>
@@ -752,6 +779,13 @@ A tela de noticias apresenta noticias atualizadas no dia a dia referente ao Meio
 </body>
 
 </html>
+
+
+```
+
+STYLE_CSS
+
+```css
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap');
 
@@ -940,6 +974,7 @@ A tela de noticias apresenta noticias atualizadas no dia a dia referente ao Meio
     background-color: #114d23;
    }
 
+```
 
 Instruções de acesso
 Abra um navegador de Internet e informe a URL - http://127.0.0.1:5500/index.html
