@@ -8,8 +8,6 @@ A tela principal do sistema apresenta um vídeo de destaque de um tema abordado 
 
 
 
-
-
 Requisitos atendidos
 
 ●	RF-04 - 
@@ -602,6 +600,20 @@ Estrutura de Dados
 3.	Abra o Visual Studio Code e execute o Live Server;
 4.	Abra um navegador de Internet e informe a seguinte URL:http://localhost:5500/index.html 
 
+TELA DE NOTICIAS
+
+A tela de noticias apresenta noticias atualizadas no dia a dia referente ao Meio Ambiente, tendo como objetivo deixar os usuarios atualizados. (RF-02) Na Tela de Noticias temos estruturas de dados baseada em HMTL e CSS. Exemplo da tela de Noticias:
+
+
+![image](https://user-images.githubusercontent.com/93801572/198859598-d45f18f3-baee-4ef9-af31-3bd6b22abc39.png)
+
+Artefatos da funcionalidade
+index.html
+style.css
+
+Instruções de acesso
+Abra um navegador de Internet e informe a URL - http://127.0.0.1:5500/index.html
+Abrirá a página de Noticias do site.
   
   
   
