@@ -31,6 +31,7 @@ Artefatos da funcionalidade
 
 Estrutura de Dados
 
+<
    <!DOCTYPE html>
    <html lang="pt-br">
 
@@ -968,6 +969,8 @@ Dados -
 
 INDEX _ HTML
 
+```html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -1003,8 +1006,13 @@ INDEX _ HTML
 </body>
 </html>
 
+```
+
 
 STYLE_CSS
+
+
+```css
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap');
 
@@ -1150,6 +1158,8 @@ body {
     box-shadow: 0px 10px 10px -10px #9ec286;
 
 }
+
+```
 
 INSTRUÇÕES DE ACESSO
 
