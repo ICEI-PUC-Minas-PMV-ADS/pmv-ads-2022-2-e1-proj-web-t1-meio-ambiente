@@ -1,5 +1,7 @@
 # Programação de Funcionalidades
 
+ # TELA DE VÍDEO E ATIVIDADE DE FIXAÇÃO
+
 Visualização de vídeos, atividade de fixação  e barra de pesquisa para localização de contéudo (RF-04, RF-05 RF-08)
 A tela principal do sistema apresenta um vídeo de destaque de um tema abordado sobre educação ambiental e uma atividade relacionada ao vídeo apresentado. O vídeo e a atividade de fixação são armazenados no LocalStorage com estruturas dados baseada em JSON. Um exemplo da tela é apresentado na Figura X. 
 
@@ -420,7 +422,7 @@ Instruções de acesso
 http://localhost:5500/index.html 
 
     
-    # Programação de Funcionalidades
+    # TELA DE LOCALIZAÇÃO DE PONTOS DE COLETAS
 
 Visualização da localização de alguns pontos de coleta de lixo reciclavel e barra de pesquisa para localização de contéudo (RF-03 e RF-05)
 A tela principal do sistema apresenta algumas localizações de pontos de coletas de lixo reciclavel e ao clicar em clique aqui será direcionado para a pagina de cada organização responsavel por essa coleta. O texto com os nomes e endereços dos locais tal como o site da pagina resposanvel e a barra de pesquisa são armazenados no LocalStorage com estruturas dados baseada em JSON. Um exemplo da tela é apresentado na Figura X. 
@@ -626,7 +628,7 @@ INDEX _ HTML
 3.	Abra o Visual Studio Code e execute o Live Server;
 4.	Abra um navegador de Internet e informe a seguinte URL:http://localhost:5500/index.html 
 
-  - TELA DE NOTICIAS
+   #  TELA DE NOTICIAS
 
 A tela de noticias apresenta noticias atualizadas no dia a dia referente ao Meio Ambiente, tendo como objetivo deixar os usuarios atualizados. (RF-02) Na Tela de Noticias temos estruturas de dados baseada em HMTL e CSS. Exemplo da tela de Noticias:
 
@@ -981,7 +983,7 @@ Abra um navegador de Internet e informe a URL - http://127.0.0.1:5500/index.html
 Abrirá a página de Noticias do site.
 
 
-  - TELA DE LOGIN
+   # TELA DE LOGIN
 
 Tela de login para o usuário poder acessar o site com seu perfil ou cadastrar um perfil novo.
 
