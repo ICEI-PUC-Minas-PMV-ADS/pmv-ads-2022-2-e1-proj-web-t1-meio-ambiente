@@ -600,18 +600,19 @@ Estrutura de Dados
 3.	Abra o Visual Studio Code e execute o Live Server;
 4.	Abra um navegador de Internet e informe a seguinte URL:http://localhost:5500/index.html 
 
-TELA DE NOTICIAS
+  - TELA DE NOTICIAS
 
 A tela de noticias apresenta noticias atualizadas no dia a dia referente ao Meio Ambiente, tendo como objetivo deixar os usuarios atualizados. (RF-02) Na Tela de Noticias temos estruturas de dados baseada em HMTL e CSS. Exemplo da tela de Noticias:
 
 
 ![image](https://user-images.githubusercontent.com/93801572/198859598-d45f18f3-baee-4ef9-af31-3bd6b22abc39.png)
 
-Artefatos da funcionalidade
-index.html
-style.css
+- Artefatos da funcionalidade:
+     
+* index.html
+* style.css
    
-   Estruturas de Dados:
+   - Estruturas de Dados:
    
    <!DOCTYPE html>
 <html lang="en">
