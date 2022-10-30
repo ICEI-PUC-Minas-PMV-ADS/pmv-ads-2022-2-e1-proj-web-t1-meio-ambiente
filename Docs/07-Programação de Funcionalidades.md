@@ -1,5 +1,458 @@
 # Programação de Funcionalidades
 
+# HOME PAGE
+
+Visualização da página principal do site, com uma barra de pesquisa para que o usuário procure o conteúdo desejado(RF-005), tendo um design simples e com constraste(RNF-003)
+A tela principal do sistema apresenta uma apresentação geral do projeto, seguida de imagens clicáveis que direcionam para suas respectivas páginas. Um exemplo da tela é apresentado na Figura X. 
+![image](https://user-images.githubusercontent.com/97044440/198903361-0bbe9980-a4a9-4124-b17c-c8e58c2acb11.png)
+
+
+Requisitos atendidos
+
+●	RF-005
+
+● RNF-003
+
+Artefatos da funcionalidade
+
+● index.html
+
+● style.css
+
+
+
+Estrutura de Dados
+
+INDEX_HTML
+
+```html
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save The Planet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <a href="#" class="logo">
+            <img src="logo.png" alt="logo da página">
+        </a>
+
+        <div id="busca">
+            <input type="text" id="txtbusca" placeholder="Buscar...">
+            <button id="btnbusca">Buscar</button>
+        </div>
+
+        <nav class="navbar">
+            <a href="home">Home</a> 
+        </nav>
+    </div>
+
+
+    <div id="container">
+    <div class="texto">
+        <h1>O MUNDO MUDA ATRAVÉS DA EDUCAÇÃO!</h1>
+        <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci ipsum iure iusto veritatis quae, quos nam, maiores laborum nihil aperiam explicabo totam voluptatibus quas molestias mollitia ducimus distinctio esse nemo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit ipsa maxime deserunt ratione praesentium dolorum, quia vel ad hic autem, porro quaerat temporibus voluptatum. Adipisci debitis repellendus ullam ea exercitationem?</P>
+    </div>
+
+    <div class="imagem">
+        <img src="natureza.png" alt="Imagem representativa de reciclagem" width="400px">
+        
+    </div>
+</div>
+
+<div id="links">
+    <div class="icon1">
+        <img src="icon1.png" alt="ícone de lápis" width="200px">
+    </div>
+
+    <div class="icon2">
+        <img src="icon2.png" alt="ícone de Vídeo" width="200px">
+        
+    </div>
+
+    <div class="icon3">
+        <img src="icon3.png" alt="ícone de localização" width="200px">
+    </div>
+</div>
+
+<div id="txticon">
+    <div class="txticon1">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, doloribus molestiae fugiat cum voluptates, illo doloremque animi illum voluptas mollitia earum consequuntur in voluptate soluta laborum quisquam dolor suscipit pariatur!</p>
+    </div>
+
+    <div class="txticon2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, doloribus molestiae fugiat cum voluptates, illo doloremque animi illum voluptas mollitia earum consequuntur in voluptate soluta laborum quisquam dolor suscipit pariatur!</p>
+    </div>
+
+    <div class="txticon3">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, doloribus molestiae fugiat cum voluptates, illo doloremque animi illum voluptas mollitia earum consequuntur in voluptate soluta laborum quisquam dolor suscipit pariatur!</p>
+    </div>
+</div>
+
+
+</body>
+</html>
+
+
+</html>
+  
+      
+```
+
+
+STYLE_CSS
+
+
+```css
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,800;1,500&display=swap');
+
+
+* {
+    font-family: 'Monserrat', 'sans-serif'; 
+}
+#header {
+    background: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    border-bottom: var(--border);
+    position: fixed;
+    top: 0; left: 0; right: 0;
+}
+
+#header .logo img {
+    height: 3.5rem;
+}
+
+#header .navbar a{
+    margin: 0 1rem;
+}
+
+#header .navbar a{
+    margin: 0 1rem;
+    font-size: 20px;
+    text-decoration: none;
+    justify-content: space-between;
+    font-weight: bold;
+    color: rgb(8, 8, 8);
+
+}
+
+#busca {
+    background-color: #ffff;
+    border: solid 1px #114d23;
+    border-radius: 5px;
+    width: 300px;
+    height: 32px;
+    padding: right 100px;
+}
+
+#txtbusca {
+    text-align: left;
+    align-items: center;
+    background-color: transparent;
+    font-size: 15px;
+    border: 10px;
+    height: 28px;
+    width: 191px;
+    
+}
+
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#container {
+    margin-top: 5%;
+}
+
+.texto {
+    top: 10%;
+    width: 50%;
+    padding: 60px;
+}
+
+#links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px
+}
+
+#links {
+    background-color: #cce6d4;
+}
+
+#txticon {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#txticon {
+    width: 100%;
+    background-color: #cce6d4;
+}
+
+
+.txticon1 {
+    padding: 0 5%;
+}
+.txticon2 {
+    padding: 0 5%;
+}
+.txticon3 {
+    padding: 0 5%;
+}
+
+#btnbusca {
+    align-items: flex-end;
+}
+
+``` 
+
+Instruções de acesso
+1.	Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
+2.	Descompacte o arquivo em uma pasta específica;
+3.	Abra o Visual Studio Code e execute o Live Server;
+4.	Abra um navegador de Internet e informe a seguinte URL:
+http://localhost:5500/index.html 
+
+
+ # TELA DE LOGIN
+
+Tela de login para o usuário poder acessar o site com seu perfil ou cadastrar um perfil novo.
+
+![Login](https://user-images.githubusercontent.com/89558202/198882715-6e835a13-15b8-4764-989e-a83bdf4c15b5.jpg)
+
+
+Requisitos atendidos
+
+●	RF-007 - 
+
+Artefatos da funcionalidade
+
+● index.html
+
+● style.css
+
+● tree.svg
+
+Dados -
+
+INDEX _ HTML
+
+```html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-login">
+        <button class="home">Entrar sem login</button>
+        <div class="left-login">
+            <h1>Faça Login<br>e venha aprender<br>conosco</h1> 
+            <img src="tree.svg" class= "left-image" alt="tree">
+        </div>
+        <div class="right-login">
+            <div class="card-login">
+                <h1>LOGIN</h1>
+                <div class="textfield">
+                    <label for="usuario">Usuário</label>
+                    <input type="text" name="usuario" placeholder="Usuário">
+                </div>
+                <div class="textfield">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" placeholder="Senha">
+                </div>
+                <button class="btn-login">Login</button>
+                <button class="cadastro">Cadastre-se</button>
+            </div>
+        </div> 
+    </div>
+</body>
+</html>
+
+```
+
+
+STYLE_CSS
+
+
+```css
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background-color: #BCE1A4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home{
+    position: relative;
+    top: -40%;
+    right: 0;
+    left: 0;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 10px;
+    outline: none; 
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #91B679;
+    background: #1b8f59;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #1b8f59;
+}
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-login > h1 { 
+    color: rgb(0, 1, 2);
+}
+
+.left-image{
+    width: 35vw;
+
+}
+
+.right-login{       
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #1b8f59;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.card-login > h1{
+    color: #91B679;
+    font-weight: 800;
+    margin: 0;
+
+}
+
+.textfield{
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.textfield > input{
+    width: 100%;   
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #1b8f59;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label{
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+
+.textfield > input::placeholder{
+    color: #f0ffff94;
+}
+
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 10px;
+    outline: none; 
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #1b8f59;
+    background: #91B679;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px -10px #9ec286;
+
+}
+
+.cadastro{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 10px;
+    outline: none; 
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #1b8f59;
+    background: #91B679;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px -10px #9ec286;
+
+}
+
+```
+
+INSTRUÇÕES DE ACESSO
+
+1.	Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
+2.	Descompacte o arquivo em uma pasta específica;
+3.	Abra o Visual Studio Code e execute o Live Server;
+4.	Abra um navegador de Internet e informe a seguinte URL:http://localhost:5500/index.html 
+
+
+
  # TELA DE VÍDEO E ATIVIDADE DE FIXAÇÃO
 
 Visualização de vídeos, atividade de fixação  e barra de pesquisa para localização de contéudo (RF-04, RF-05 RF-08)
@@ -983,228 +1436,7 @@ Abra um navegador de Internet e informe a URL - http://127.0.0.1:5500/index.html
 Abrirá a página de Noticias do site.
 
 
-   # TELA DE LOGIN
-
-Tela de login para o usuário poder acessar o site com seu perfil ou cadastrar um perfil novo.
-
-![Login](https://user-images.githubusercontent.com/89558202/198882715-6e835a13-15b8-4764-989e-a83bdf4c15b5.jpg)
-
-
-Requisitos atendidos
-
-●	RF-007 - 
-
-Artefatos da funcionalidade
-
-● index.html
-
-● style.css
-
-● tree.svg
-
-Dados -
-
-INDEX _ HTML
-
-```html
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="width=device-width, initial-scale=1.0">
-    <title>LOGIN</title>    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="main-login">
-        <button class="home">Entrar sem login</button>
-        <div class="left-login">
-            <h1>Faça Login<br>e venha aprender<br>conosco</h1> 
-            <img src="tree.svg" class= "left-image" alt="tree">
-        </div>
-        <div class="right-login">
-            <div class="card-login">
-                <h1>LOGIN</h1>
-                <div class="textfield">
-                    <label for="usuario">Usuário</label>
-                    <input type="text" name="usuario" placeholder="Usuário">
-                </div>
-                <div class="textfield">
-                    <label for="senha">Senha</label>
-                    <input type="password" name="senha" placeholder="Senha">
-                </div>
-                <button class="btn-login">Login</button>
-                <button class="cadastro">Cadastre-se</button>
-            </div>
-        </div> 
-    </div>
-</body>
-</html>
-
-```
-
-
-STYLE_CSS
-
-
-```css
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap');
-
-body {
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.main-login{
-    width: 100vw;
-    height: 100vh;
-    background-color: #BCE1A4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.home{
-    position: relative;
-    top: -40%;
-    right: 0;
-    left: 0;
-    padding: 16px 0px;
-    margin: 25px;
-    border: none;
-    border-radius: 10px;
-    outline: none; 
-    text-transform: uppercase;
-    font-weight: 800;
-    letter-spacing: 2px;
-    color: #91B679;
-    background: #1b8f59;
-    cursor: pointer;
-    box-shadow: 0px 10px 40px -12px #1b8f59;
-}
-
-.left-login{
-    width: 50vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.left-login > h1 { 
-    color: rgb(0, 1, 2);
-}
-
-.left-image{
-    width: 35vw;
-
-}
-
-.right-login{       
-    width: 50vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.card-login{
-    width: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 30px 35px;
-    background: #1b8f59;
-    border-radius: 20px;
-    box-shadow: 0px 10px 40px #00000056;
-}
-
-.card-login > h1{
-    color: #91B679;
-    font-weight: 800;
-    margin: 0;
-
-}
-
-.textfield{
-    width: 100%;
-    display: flex; 
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    margin: 10px 0;
-}
-
-.textfield > input{
-    width: 100%;   
-    border: none;
-    border-radius: 10px;
-    padding: 15px;
-    background: #1b8f59;
-    color: #f0ffffde;
-    font-size: 12pt;
-    box-shadow: 0px 10px 40px #00000056;
-    outline: none;
-    box-sizing: border-box;
-}
-
-.textfield > label{
-    color: #f0ffffde;
-    margin-bottom: 10px;
-}
-
-.textfield > input::placeholder{
-    color: #f0ffff94;
-}
-
-.btn-login{
-    width: 100%;
-    padding: 16px 0px;
-    margin: 25px;
-    border: none;
-    border-radius: 10px;
-    outline: none; 
-    text-transform: uppercase;
-    font-weight: 800;
-    letter-spacing: 2px;
-    color: #1b8f59;
-    background: #91B679;
-    cursor: pointer;
-    box-shadow: 0px 10px 10px -10px #9ec286;
-
-}
-
-.cadastro{
-    width: 100%;
-    padding: 16px 0px;
-    margin: 25px;
-    border: none;
-    border-radius: 10px;
-    outline: none; 
-    text-transform: uppercase;
-    font-weight: 800;
-    letter-spacing: 2px;
-    color: #1b8f59;
-    background: #91B679;
-    cursor: pointer;
-    box-shadow: 0px 10px 10px -10px #9ec286;
-
-}
-
-```
-
-INSTRUÇÕES DE ACESSO
-
-1.	Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
-2.	Descompacte o arquivo em uma pasta específica;
-3.	Abra o Visual Studio Code e execute o Live Server;
-4.	Abra um navegador de Internet e informe a seguinte URL:http://localhost:5500/index.html 
-
+  
   
   
 
@@ -1222,230 +1454,3 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 > - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
 > - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
 
-# HOME PAGE
-
-Visualização da página principal do site, com uma barra de pesquisa para que o usuário procure o conteúdo desejado(RF-005), tendo um design simples e com constraste(RNF-003)
-A tela principal do sistema apresenta uma apresentação geral do projeto, seguida de imagens clicáveis que direcionam para suas respectivas páginas. Um exemplo da tela é apresentado na Figura X. 
-![image](https://user-images.githubusercontent.com/97044440/198903361-0bbe9980-a4a9-4124-b17c-c8e58c2acb11.png)
-
-
-Requisitos atendidos
-
-●	RF-005
-
-● RNF-003
-
-Artefatos da funcionalidade
-
-● index.html
-
-● style.css
-
-
-
-Estrutura de Dados
-
-INDEX_HTML
-
-```html
-
-
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Save The Planet</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div id="header">
-        <a href="#" class="logo">
-            <img src="logo.png" alt="logo da página">
-        </a>
-
-        <div id="busca">
-            <input type="text" id="txtbusca" placeholder="Buscar...">
-            <button id="btnbusca">Buscar</button>
-        </div>
-
-        <nav class="navbar">
-            <a href="home">Home</a> 
-        </nav>
-    </div>
-
-
-    <div id="container">
-    <div class="texto">
-        <h1>O MUNDO MUDA ATRAVÉS DA EDUCAÇÃO!</h1>
-        <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci ipsum iure iusto veritatis quae, quos nam, maiores laborum nihil aperiam explicabo totam voluptatibus quas molestias mollitia ducimus distinctio esse nemo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit ipsa maxime deserunt ratione praesentium dolorum, quia vel ad hic autem, porro quaerat temporibus voluptatum. Adipisci debitis repellendus ullam ea exercitationem?</P>
-    </div>
-
-    <div class="imagem">
-        <img src="natureza.png" alt="Imagem representativa de reciclagem" width="400px">
-        
-    </div>
-</div>
-
-<div id="links">
-    <div class="icon1">
-        <img src="icon1.png" alt="ícone de lápis" width="200px">
-    </div>
-
-    <div class="icon2">
-        <img src="icon2.png" alt="ícone de Vídeo" width="200px">
-        
-    </div>
-
-    <div class="icon3">
-        <img src="icon3.png" alt="ícone de localização" width="200px">
-    </div>
-</div>
-
-<div id="txticon">
-    <div class="txticon1">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, doloribus molestiae fugiat cum voluptates, illo doloremque animi illum voluptas mollitia earum consequuntur in voluptate soluta laborum quisquam dolor suscipit pariatur!</p>
-    </div>
-
-    <div class="txticon2">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, doloribus molestiae fugiat cum voluptates, illo doloremque animi illum voluptas mollitia earum consequuntur in voluptate soluta laborum quisquam dolor suscipit pariatur!</p>
-    </div>
-
-    <div class="txticon3">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, doloribus molestiae fugiat cum voluptates, illo doloremque animi illum voluptas mollitia earum consequuntur in voluptate soluta laborum quisquam dolor suscipit pariatur!</p>
-    </div>
-</div>
-
-
-</body>
-</html>
-
-
-</html>
-  
-      
-```
-
-
-STYLE_CSS
-
-
-```css
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,800;1,500&display=swap');
-
-
-* {
-    font-family: 'Monserrat', 'sans-serif'; 
-}
-#header {
-    background: var(--bg);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1.5rem 7%;
-    border-bottom: var(--border);
-    position: fixed;
-    top: 0; left: 0; right: 0;
-}
-
-#header .logo img {
-    height: 3.5rem;
-}
-
-#header .navbar a{
-    margin: 0 1rem;
-}
-
-#header .navbar a{
-    margin: 0 1rem;
-    font-size: 20px;
-    text-decoration: none;
-    justify-content: space-between;
-    font-weight: bold;
-    color: rgb(8, 8, 8);
-
-}
-
-#busca {
-    background-color: #ffff;
-    border: solid 1px #114d23;
-    border-radius: 5px;
-    width: 300px;
-    height: 32px;
-    padding: right 100px;
-}
-
-#txtbusca {
-    text-align: left;
-    align-items: center;
-    background-color: transparent;
-    font-size: 15px;
-    border: 10px;
-    height: 28px;
-    width: 191px;
-    
-}
-
-
-#container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#container {
-    margin-top: 5%;
-}
-
-.texto {
-    top: 10%;
-    width: 50%;
-    padding: 60px;
-}
-
-#links {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 5px
-}
-
-#links {
-    background-color: #cce6d4;
-}
-
-#txticon {
-    display: flex;
-    justify-content: space-around;
-
-}
-
-#txticon {
-    width: 100%;
-    background-color: #cce6d4;
-}
-
-
-.txticon1 {
-    padding: 0 5%;
-}
-.txticon2 {
-    padding: 0 5%;
-}
-.txticon3 {
-    padding: 0 5%;
-}
-
-#btnbusca {
-    align-items: flex-end;
-}
-
-``` 
-
-Instruções de acesso
-1.	Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
-2.	Descompacte o arquivo em uma pasta específica;
-3.	Abra o Visual Studio Code e execute o Live Server;
-4.	Abra um navegador de Internet e informe a seguinte URL:
-http://localhost:5500/index.html 
