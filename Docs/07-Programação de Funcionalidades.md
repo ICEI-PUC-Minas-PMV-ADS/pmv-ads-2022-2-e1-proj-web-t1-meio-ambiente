@@ -610,6 +610,334 @@ A tela de noticias apresenta noticias atualizadas no dia a dia referente ao Meio
 Artefatos da funcionalidade
 index.html
 style.css
+   
+   Estruturas de Dados:
+   
+   <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save The Planet</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+    <div id="cabecalho">
+        <!-- header section starts here-->
+        <header class="header">
+            <a href="#" class="logo">
+                <img src="./img/logo planet.jpg" alt="logo">
+            </a>
+
+            <div id="Busca">
+                <input type="text" id="txtBusca" placeholder="Buscar..." />
+                <button id="btnBusca"></button>
+            </div>
+
+            <nav class="navbar">
+                <a href="Home.html">home</a>
+            </nav>
+    </div>
+    </header>
+
+    <div id="conteudo">
+        <section>
+            
+            <br><br>
+            <br><br>
+            <br><br>
+            <h1>Noticias</h1>
+            <br><br>
+            <br><br>
+
+        </section>
+
+        <div class="container">
+            <img src="./img/Toneladas.lixo.jpg" width="500" height="500" /></img>
+        </div>
+
+
+
+        <!-- style to create vertical line -->
+        <style>
+            .vertical {
+                border-left: 2px solid rgb(199, 60, 45);
+                height: 45%;
+                position: absolute;
+                left: 45%;
+            }
+        </style>
+
+        <body style="text-align: center;">
+            <h2 style="color: black;">
+                BRASIL GERA 82 MILHÕES DE TONELADAS DE LIXO E RECICLA APENAS 2%.
+            </h2>
+
+            <div class="vertical"></div>
+
+            <main>
+                <section>
+
+                    <div class="center">
+                        <p>
+                            "Os dados do Diagnóstico de Manejo de Resíduos Sólidos Urbanos do Brasil entraram em pauta e
+                            assustaram muita gente na noite da última segunda-feira (23) após uma reportagem do Jornal
+                            Nacional revelar que o Brasil gera 82 milhões de toneladas de lixo todos os anos e recicla
+                            apenas 2%.
+
+                            A reportagem ainda apresenta as metas do Plano Nacional dos Resíduos Sólidos, que propõe um
+                            conjunto de ações para os próximos 20 anos e se adequa à legislação presente na Política
+                            Nacional dos Resíduos Sólidos (2010) e no Marco Legal do Saneamento (2020).
+
+                            Batizado de Planares, o documento foi publicado no último dia 14 de abril no Diário Oficial
+                            e deve ser atualizado a cada quatro anos. O objetivo é reciclar 14% de todo o lixo produzido
+                            no país até 2024 e chegar aos 50% em 2040."
+                        </p>
+                    </div>
+                </section>
+            </main>
+
+
+
+            <br><br>
+            <br><br>
+            <br><br>
+    </div>
+
+    <div id="rodape">
+        <footer>
+                <div class="footer-box">
+                        <a href="sobre.html">Sobre</a>
+                    <p> O intuito do site e trazer novos conhecimentos para nossas crianças de como cuidar e preservar o
+                        meio ambiente. Mas nosso site se abrange para todos os publicos e idades.
+                        O meio ambiente é o local onde engloba todos os elementos vivos e não vivos essencial para nossa
+                        vida na Terra. Cuidar e preservar desse benefício é um dever de todos, porém nos dias atuais a
+                        maioria se dispõe ao desmatamento, poluição e extinção.
+                        A compreensão e conhecimento sobre o meio ambiente, precisa ser trabalhada desde a infância até
+                        a idade adulta, propondo-se favorecer um relacionamento harmônico entre homem e natureza.
+                    </p>
+                    
+                    <div class="contato">     
+                            <p>Contato:</p>
+                        <a href="https://www.linkedin.com/mwlite/in/robertagdf" target="_blank">
+                        <img src="./img/linkedin (1).png" target="_blank"></a> 
+                        
+                        <a href="https://www.linkedin.com/in/pricilla-baier-de-araujo-aa9597103/" target="_blank">
+                        <img src="./img/linkedin (1).png" target="_blank"></a> 
+                        
+                        <a href="https://www.linkedin.com/mwlite/in/robertagdf" target="_blank">
+                        <img src="./img/linkedin (1).png" target="_blank"></a>
+
+                        <a href="https://www.linkedin.com/mwlite/in/robertagdf" target="_blank">
+                        <img src="./img/linkedin (1).png" target="_blank"></a> 
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                <div class="footer-bottom">
+                    <p>Meio Ambiente-2022</p>
+                    </div>
+
+        </footer>
+    </div>
+</body>
+
+</html>
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: capitalize;
+    transition: 2s linear;
+}
+
+.header{
+    background: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    border-bottom: var(--border);
+    position: fixed;
+    top: 0; left: 0; right: 0;
+}
+
+.header .logo img{
+    height: 3.5rem;
+}
+
+.header .navbar a{
+    margin: 0 1rem;
+    font-size: 20px;
+    text-decoration: none;
+    justify-content: space-between;
+    font-weight: bold;
+    color: rgb(8, 8, 8);
+ }
+
+  #Busca{
+    background-color: #ffffff;
+    border: solid 1px #114d23;
+    border-radius: 5px;
+    width: 300px;
+    height: 32px;
+    padding: right 100px;
+  }
+
+  #txtBusca{
+    text-align: left;
+    align-items: center;
+    background-color: transparent;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    height: 28px;
+    width: 191px;
+  }
+
+ .section{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    text-align: center-left;
+    padding: 60px;
+    border: none;
+ }
+
+ #imagem-content {
+    display: inline-block;
+ }
+
+    #conteudo{
+    padding: 5%;
+    margin:0px;
+  }
+    .container img {
+    float: left;
+    border: transparent thin solid;
+    padding: 5px;
+    width: 410x;
+    height: 410px;
+   }
+   
+   h1{
+    text-align: left;
+    font-family: 'Georgia' !important;
+    font-size: 35px;
+    align-items: left;
+    padding: 10px;
+    display: flex;
+    position: relative;
+   }
+
+   h2 {
+    text-align:center;
+    font-family: 'Georgia' !important;
+    font-size: 30px;
+    align-items: center;
+    padding: 8px;
+    display: flex;
+ }
+   .center {
+    text-align: center;
+    font-family: 'Georgia' !important;
+    font-size: 23px;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    position: relative;
+   }
+
+  p {
+      text-align: left;
+      font-family: 'Georgia' !important;
+      font-size: 16px;
+      align-items: center;
+      font-display: center;
+      padding: 6%;
+      margin:00px;
+   
+    }
+    
+
+   main {
+    font-family: 'Georgia' !important;    
+    font-size:20px;
+    margin: 0px;
+    padding: 0 00%;
+    font-weight: 0;
+    text-align: center;
+    font-display: center;
+   }
+
+   footer {
+    background-color: forestgreen;
+    padding-top: 55px;
+    border-top: 5px solid rgb(16, 94, 46);
+    text-align: center; 
+    display:flex;
+    justify-content: center;
+   }
+   
+
+    footer p {
+      color: #d1d1d1;
+      font-size:12px;
+      text-decoration: none;
+    }
+    
+    footer a {
+      color: #d1d1d1;
+      font-size:15px;
+      text-decoration: none;
+   }
+    
+    .contato{
+      display: block;
+      list-style-type: none;
+      padding: 2em;
+      margin: 2em;
+    }
+
+    .contato p{
+      color: #d1d1d1;
+      font-size:15px;
+      text-align:center;
+    }
+
+   .footer-box  {
+    width: 31%;
+    padding: 0%;
+    float: left;
+    align-items:center;
+   }
+
+   .footer-box .wrapper:after {
+    display: block;
+   }
+   
+   .footer-bottom p{
+    font-family: 'Georgia' !important;  
+    margin-top: 40px;
+    width: 100px;
+    display: inline;
+    padding: 0 5%;
+    background-color: #114d23;
+   }
+
 
 Instruções de acesso
 Abra um navegador de Internet e informe a URL - http://127.0.0.1:5500/index.html
