@@ -456,7 +456,7 @@ INSTRUÇÕES DE ACESSO
  # TELA DE VÍDEO E ATIVIDADE DE FIXAÇÃO
 
 Visualização de vídeos, atividade de fixação  e barra de pesquisa para localização de contéudo (RF-04, RF-05 RF-08)
-A tela principal do sistema apresenta um vídeo de destaque de um tema abordado sobre educação ambiental e uma atividade relacionada ao vídeo apresentado. O vídeo e a atividade de fixação são armazenados no LocalStorage com estruturas dados baseada em JSON. Um exemplo da tela é apresentado na Figura X. 
+A tela principal do sistema apresenta um vídeo de destaque de um tema abordado sobre educação ambiental e uma atividade relacionada ao vídeo apresentado, que gera a resposta correta assim que clicado nas opções. Um exemplo da tela é apresentado na Figura X. 
 
 ![videos e atividade de fixação](https://user-images.githubusercontent.com/114036574/198889190-3332217e-2989-4b3d-b815-8f7c511d8aa4.png)
 
@@ -878,7 +878,7 @@ http://localhost:5500/index.html
     # TELA DE LOCALIZAÇÃO DE PONTOS DE COLETAS
 
 Visualização da localização de alguns pontos de coleta de lixo reciclavel e barra de pesquisa para localização de contéudo (RF-03 e RF-05)
-A tela principal do sistema apresenta algumas localizações de pontos de coletas de lixo reciclavel e ao clicar em clique aqui será direcionado para a pagina de cada organização responsavel por essa coleta. O texto com os nomes e endereços dos locais tal como o site da pagina resposanvel e a barra de pesquisa são armazenados no LocalStorage com estruturas dados baseada em JSON. Um exemplo da tela é apresentado na Figura X. 
+A tela principal do sistema apresenta algumas localizações de pontos de coletas de lixo reciclavel e ao clicar em clique aqui será direcionado para a pagina de cada organização responsável por essa coleta.  Um exemplo da tela é apresentado na Figura X. 
 
 ![localizacao](https://user-images.githubusercontent.com/114036574/198889226-1fb30aff-d9f9-43a5-960a-8d205255780e.png)
 
