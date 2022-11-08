@@ -880,7 +880,8 @@ http://localhost:5500/index.html
 Visualização da localização de alguns pontos de coleta de lixo reciclavel e barra de pesquisa para localização de contéudo (RF-03 e RF-05)
 A tela principal do sistema apresenta algumas localizações de pontos de coletas de lixo reciclavel e ao clicar em clique aqui será direcionado para a pagina de cada organização responsável por essa coleta.  Um exemplo da tela é apresentado na Figura X. 
 
-![localizacao](https://user-images.githubusercontent.com/114036574/198889226-1fb30aff-d9f9-43a5-960a-8d205255780e.png)
+![localização2](https://user-images.githubusercontent.com/114036574/200443997-3610c727-87a1-41d7-8bf7-96af340aaccf.png)
+
 
 
 
@@ -906,88 +907,101 @@ INDEX _ HTML
 ```html
 
    <!DOCTYPE html>
-   html lang="pt-br">
+<html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Save The Planet">
-    <link rel="icon" type="image/x-icon" href="logo.png">
-    <title>Save The Planet</title>
-    <link rel="stylesheet" href="localizacao.style.css">
 
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Save The Planet">
+        <link rel="icon" type="image/x-icon" href="logo.png">
+        <title>Save The Planet</title>
+        <link rel="stylesheet" href="localizacao.style.css">
+
+
+
+    </head>
 
 <body>
-    <!-- header section starts here-->
-    <header class="header">
-        <a href="#" class="logo">
-            <img src="logo.png" alt="logo">
-        </a>
 
-        <div id="Busca">
-            <input type="text" id="txtBusca" placeholder="Buscar..." />
-            <button id="btnBusca"></button>
-        </div>
+ <!-- header section starts here-->
+ <header class="header">
+    <a href="#" class="logo">
+        <img src="logo.png" alt="logo">
+    </a>
 
-        <nav class="navbar">
-            <a href="#home">home</a>
+    <div id="Busca">
+        <input type="text" id="txtBusca" placeholder="Buscar..." />
+        <button id="btnBusca"></button>
+    </div>
 
-        </nav>
-
-
-    </header>
-
-    <main>
-
-
-        <div class="localização">
-
-            <h1>Veja aqui alguns pontos de coletas</h1><br>
-
-
-        </div>
-
-        <ul>
-           
-                <p><b>
-                    <li class="Localização"> BH Recicla Reciclagem de Lixo Eletrônico e Outras Sucatas. - Endereço: Av.
-                        General David Sarnoff, 2690 - Cidade Industrial, Contagem - MG, 32210-110
-                        Áreas atendidas: Contagem e as proximidades <a href="https://bhrecicla.com.br/">Clique aqui.</a>
-                    </li></p><br>
-                     <p><b>
-
-                   
-                    <li class="Localização2"> URPV - Unidade de Recebimento de Pequenos Volumes - Liberdade -
-                        Endereço:R. Flôr de Índio, 105 - Liberdade, Belo Horizonte - MG, 31270-215 <a
-                            href="https://prefeitura.pbh.gov.br/slu/informacoes/servicos/urpvs-enderecos">Clique
-                            aqui.</a></li><br>
-                            
-                    <li class="Localização3"> CMR - Reciclagem de Resíduos e Sucatas Ltda -
-                        Endereço: R. Paracatu, 15 - Barro Preto, Belo Horizonte - MG, 30180-090
-                        Áreas atendidas: Região Metropolitana de Belo Horizonte <a
-                            href="https://cmrreciclagem.com.br/">Clique aqui.</a></li></p><br>
-                            
-                    <li class="Localização4"> Reciclagem Tc - 
-                        Endereço: Av. Teresa Cristina - Betânia, Belo Horizonte - MG, 30662-537 <a href="https://www.reciclagemtc.com.br/">Clique aqui.</a></li></p><br>
-
-
-                        <li class="Localização1"> BH Recicla Reciclagem de Lixo Eletrônico e Outras Sucatas -
-                            Endereço: Av.General David Sarnoff, 2690 - Cidade Industrial, Contagem - MG, 32210-110
-                            Áreas atendidas: Contagem e as proximidades <a href="https://bhrecicla.com.br/">Clique aqui.</a>
-                        </li></p><br>
-                        
-                    </b>
-        </ul>
-    
-    </main>
-
+    <nav class="navbar">
+        <a href="#home">home</a>
 
        
+           
+                
+            
+    </nav>
+
+ 
+</header>
+      
+
+
+    <h1>Veja aqui alguns pontos de coletas</h1>
+    <img class="mundo" src="loc.plaenta.png">
+    <section>
+        <div>
+
+            <h3>URPV - Unidade de Recebimento de Pequenos Volumes - Liberdade</h3>
+            <p>Endereço:R. Flôr de Índio, 105 - Liberdade, Belo Horizonte - MG
+            <a href="https://prefeitura.pbh.gov.br/slu/informacoes/servicos/urpvs-enderecos" class="card-link">
+                <button class="btn">Clique aqui.</button></a></p>
+
+        </div>
+
+
+        <div>
+
+            <h3>CMR - Reciclagem de Resíduos e Sucatas Ltda</h3>
+            <p>Endereço: R. Paracatu, 15 - Barro Preto, Belo Horizonte - MG
+                <a href="https://cmrreciclagem.com.br/" class="card-link">
+                    <button class="btn">Clique aqui.</button></a></p>
+
+        </div>
+
+
+
+        <div>
+
+            <h3>Reciclagem Tc</h3>
+            <p>Endereço: Av. Teresa Cristina - Betânia, Belo Horizonte - MG
+                <a href="https://www.reciclagemtc.com.br/ " class="card-link">
+                    <button class="btn">Clique aqui.</button></a>
+            </p>
+        </div>
+
+
+
+        <div>
+            <h3>BH Recicla Reciclagem de Lixo Eletrônico e Outras Sucatas</h3>
+            <p>Endereço: Av.General David Sarnoff, 2690 - Cidade Industrial, Contagem - MG
+              <a href="https://bhrecicla.com.br/"class="card-link">
+                <button class="btn">Clique aqui.</button></a>
+            </p>
+
+        </div>
+      
+    </section>
+
+    <body>
+
+    </body>
+
 </html>
-
-
     
     
 ```    
@@ -1000,22 +1014,21 @@ INDEX _ HTML
     
      
     
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap');
-    @import url('https://www.remessaonline.com.br/blog/tabela-de-cores-html-veja-os-codigos-para-aplicar-cores-nas-tags-html/');
+   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap');
+@import url('https://www.remessaonline.com.br/blog/tabela-de-cores-html-veja-os-codigos-para-aplicar-cores-nas-tags-html/');
 
-    * {
+* {
     font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     outline: none;
     border: none;
     text-decoration: capitalize;
     transition: 2s linear;
-    
-    }
+}
 
-    .header{
+
+
+.header{
     background: var(--bg);
     display: flex;
     align-items: center;
@@ -1023,54 +1036,126 @@ INDEX _ HTML
     padding: 1.5rem 7%;
     border-bottom: var(--border);
     top: 0; left: 0; right: 0;
-    }
+}
 
-    .header .logo img{
+.header .logo img{
     height: 3.5rem;
-    }
+}
 
-    .header .navbar a{
+.header .imagem{
+    width: -20px;
+    height: 3.5rem;
+    float: left;
+   
+}
+
+
+.header .navbar a{
     margin: 0 1rem;
     font-size: 20px;
     text-decoration: none;
     justify-content: space-between;
     font-weight: bold;
     color: rgb(8, 8, 8);
-    }
+}
 
-    #Busca{
+#Busca{
     background-color: #ffffff;
     border: solid 1px #114d23;
     border-radius: 5px;
     width: 300px;
     height: 32px;
     padding: right 100px;
-    }
-    #txtBusca{
+}
+#txtBusca{
     text-align: left;
     align-items: center;
     background-color: transparent;
     font-size: 15px;
-    padding: 10px;
+    padding: 5px;
     border: none;
-    height: 28px;
+    height: 15px;
     width: 191px;
+  
 
-    }
+}
+.imagem{
+ display: flex;
+ width: 50%;
+ 
 
-    .localização> h1{
+   
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.mundo{
+    display: none;
+    width: 100%;
+
+}
+h1 {
+margin-top: -4%;
+
+
+}
+h1{
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     top: 10%;
     width: 50%;
     padding: 60px;
-    
-   }
-    .localização{
-    margin-top: -1%;
-   
-   }
+    color:black
+}
+
+
+
+div{
+    display: inline-block;
+    width: 35em;
+    background-color: #9df09d;
+    vertical-align: top;
+    margin: 8px;
+    padding: 10px;
+    line-height: 100%;
+    border: 1px solid #114d23;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align:left;
+    justify-content: space-between;
+}
+
+.btn{
+    border: none;
+    padding: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 3px;
+    float: right;
+   margin: 10px;
+}
+
+.btn{
+    background-color: #114d23;
+    outline-color: none;
+    color: aliceblue; 
+}
+
+.btn:hover{
+background-color: #022702;
+
+}.btn:active{
+    color: #ffffff;
+    background-color:#022702; ;
+}
   
   ```
   
