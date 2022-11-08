@@ -799,7 +799,7 @@ background-color: #022702;
 }
 ```  
     
- #Primeira versão da Home Page
+ # Primeira versão da Home Page
  
  INDEX_HTML
 
