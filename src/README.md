@@ -799,4 +799,202 @@ background-color: #022702;
 }
 ```  
     
+ #Primeira versão da Home Page
  
+ INDEX_HTML
+
+```html
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save The Planet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <a href="#" class="logo">
+            <img src="logo.png" alt="logo da página">
+        </a>
+
+        <div id="busca">
+            <input type="text" id="txtbusca" placeholder="Buscar...">
+            <button id="btnbusca">Buscar</button>
+        </div>
+
+        <nav class="navbar">
+            <a href="home">Home</a> 
+        </nav>
+    </div>
+
+
+    <div id="container">
+    <div class="texto">
+        <h1>O MUNDO MUDA ATRAVÉS DA EDUCAÇÃO!</h1>
+        <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci ipsum iure iusto veritatis quae, quos nam, maiores laborum nihil aperiam explicabo totam voluptatibus quas molestias mollitia ducimus distinctio esse nemo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit ipsa maxime deserunt ratione praesentium dolorum, quia vel ad hic autem, porro quaerat temporibus voluptatum. Adipisci debitis repellendus ullam ea exercitationem?</P>
+    </div>
+
+    <div class="imagem">
+        <img src="natureza.png" alt="Imagem representativa de reciclagem" width="400px">
+        
+    </div>
+</div>
+
+<div id="links">
+    <div class="icon1">
+        <img src="icon1.png" alt="ícone de lápis" width="200px">
+    </div>
+
+    <div class="icon2">
+        <img src="icon2.png" alt="ícone de Vídeo" width="200px">
+        
+    </div>
+
+    <div class="icon3">
+        <img src="icon3.png" alt="ícone de localização" width="200px">
+    </div>
+</div>
+
+<div id="txticon">
+    <div class="txticon1">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, doloribus molestiae fugiat cum voluptates, illo doloremque animi illum voluptas mollitia earum consequuntur in voluptate soluta laborum quisquam dolor suscipit pariatur!</p>
+    </div>
+
+    <div class="txticon2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, doloribus molestiae fugiat cum voluptates, illo doloremque animi illum voluptas mollitia earum consequuntur in voluptate soluta laborum quisquam dolor suscipit pariatur!</p>
+    </div>
+
+    <div class="txticon3">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, doloribus molestiae fugiat cum voluptates, illo doloremque animi illum voluptas mollitia earum consequuntur in voluptate soluta laborum quisquam dolor suscipit pariatur!</p>
+    </div>
+</div>
+
+
+</body>
+</html>
+
+
+</html>
+  
+      
+```
+
+
+STYLE_CSS
+
+
+```css
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,800;1,500&display=swap');
+
+
+* {
+    font-family: 'Monserrat', 'sans-serif'; 
+}
+#header {
+    background: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    border-bottom: var(--border);
+    position: fixed;
+    top: 0; left: 0; right: 0;
+}
+
+#header .logo img {
+    height: 3.5rem;
+}
+
+#header .navbar a{
+    margin: 0 1rem;
+}
+
+#header .navbar a{
+    margin: 0 1rem;
+    font-size: 20px;
+    text-decoration: none;
+    justify-content: space-between;
+    font-weight: bold;
+    color: rgb(8, 8, 8);
+
+}
+
+#busca {
+    background-color: #ffff;
+    border: solid 1px #114d23;
+    border-radius: 5px;
+    width: 300px;
+    height: 32px;
+    padding: right 100px;
+}
+
+#txtbusca {
+    text-align: left;
+    align-items: center;
+    background-color: transparent;
+    font-size: 15px;
+    border: 10px;
+    height: 28px;
+    width: 191px;
+    
+}
+
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#container {
+    margin-top: 5%;
+}
+
+.texto {
+    top: 10%;
+    width: 50%;
+    padding: 60px;
+}
+
+#links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px
+}
+
+#links {
+    background-color: #cce6d4;
+}
+
+#txticon {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#txticon {
+    width: 100%;
+    background-color: #cce6d4;
+}
+
+
+.txticon1 {
+    padding: 0 5%;
+}
+.txticon2 {
+    padding: 0 5%;
+}
+.txticon3 {
+    padding: 0 5%;
+}
+
+#btnbusca {
+    align-items: flex-end;
+}
+
+``` 
