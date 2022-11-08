@@ -548,5 +548,255 @@ O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em 
    }
 ``` 
 
+### [0.2.0] - 31/10/2022
+#### Adicionado
+# Segunda versão da página de localização
+
+```html
+   <!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Save The Planet">
+        <link rel="icon" type="image/x-icon" href="logo.png">
+        <title>Save The Planet</title>
+        <link rel="stylesheet" href="localizacao.style.css">
+
+
+
+    </head>
+
+<body>
+
+ <!-- header section starts here-->
+ <header class="header">
+    <a href="#" class="logo">
+        <img src="logo.png" alt="logo">
+    </a>
+
+    <div id="Busca">
+        <input type="text" id="txtBusca" placeholder="Buscar..." />
+        <button id="btnBusca"></button>
+    </div>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+
+       
+           
+                
+            
+    </nav>
+
+ 
+</header>
+      
+
+
+    <h1>Veja aqui alguns pontos de coletas</h1>
+    <img class="mundo" src="loc.plaenta.png">
+    <section>
+        <div>
+
+            <h3>URPV - Unidade de Recebimento de Pequenos Volumes - Liberdade</h3>
+            <p>Endereço:R. Flôr de Índio, 105 - Liberdade, Belo Horizonte - MG
+            <a href="https://prefeitura.pbh.gov.br/slu/informacoes/servicos/urpvs-enderecos" class="card-link">
+                <button class="btn">Clique aqui.</button></a></p>
+
+        </div>
+
+
+        <div>
+
+            <h3>CMR - Reciclagem de Resíduos e Sucatas Ltda</h3>
+            <p>Endereço: R. Paracatu, 15 - Barro Preto, Belo Horizonte - MG
+                <a href="https://cmrreciclagem.com.br/" class="card-link">
+                    <button class="btn">Clique aqui.</button></a></p>
+
+        </div>
+
+
+
+        <div>
+
+            <h3>Reciclagem Tc</h3>
+            <p>Endereço: Av. Teresa Cristina - Betânia, Belo Horizonte - MG
+                <a href="https://www.reciclagemtc.com.br/ " class="card-link">
+                    <button class="btn">Clique aqui.</button></a>
+            </p>
+        </div>
+
+
+
+        <div>
+            <h3>BH Recicla Reciclagem de Lixo Eletrônico e Outras Sucatas</h3>
+            <p>Endereço: Av.General David Sarnoff, 2690 - Cidade Industrial, Contagem - MG
+              <a href="https://bhrecicla.com.br/"class="card-link">
+                <button class="btn">Clique aqui.</button></a>
+            </p>
+
+        </div>
+      
+    </section>
+
+    <body>
+
+    </body>
+
+</html>
+```    
+    
+```css
+
+    
+     
+     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap');
+     @import url('https://www.remessaonline.com.br/blog/tabela-de-cores-html-veja-os-codigos-para-aplicar-cores-nas-tags-html/');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: capitalize;
+    transition: 2s linear;
+}
+
+
+
+.header{
+    background: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    border-bottom: var(--border);
+    top: 0; left: 0; right: 0;
+}
+
+.header .logo img{
+    height: 3.5rem;
+}
+
+.header .imagem{
+    width: -20px;
+    height: 3.5rem;
+    float: left;
+   
+}
+
+
+.header .navbar a{
+    margin: 0 1rem;
+    font-size: 20px;
+    text-decoration: none;
+    justify-content: space-between;
+    font-weight: bold;
+    color: rgb(8, 8, 8);
+}
+
+#Busca{
+    background-color: #ffffff;
+    border: solid 1px #114d23;
+    border-radius: 5px;
+    width: 300px;
+    height: 32px;
+    padding: right 100px;
+}
+#txtBusca{
+    text-align: left;
+    align-items: center;
+    background-color: transparent;
+    font-size: 15px;
+    padding: 5px;
+    border: none;
+    height: 15px;
+    width: 191px;
+  
+
+}
+.imagem{
+ display: flex;
+ width: 50%;
+ 
+
+   
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.mundo{
+    display: none;
+    width: 100%;
+
+}
+h1 {
+margin-top: -4%;
+
+
+}
+h1{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 10%;
+    width: 50%;
+    padding: 60px;
+    color:black
+}
+
+
+
+div{
+    display: inline-block;
+    width: 35em;
+    background-color: #9df09d;
+    vertical-align: top;
+    margin: 8px;
+    padding: 10px;
+    line-height: 100%;
+    border: 1px solid #114d23;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align:left;
+    justify-content: space-between;
+}
+
+.btn{
+    border: none;
+    padding: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 3px;
+    float: right;
+   margin: 10px;
+}
+
+.btn{
+    background-color: #114d23;
+    outline-color: none;
+    color: aliceblue; 
+}
+
+.btn:hover{
+background-color: #022702;
+
+}.btn:active{
+    color: #ffffff;
+    background-color:#022702; ;
+}
+```  
     
  
