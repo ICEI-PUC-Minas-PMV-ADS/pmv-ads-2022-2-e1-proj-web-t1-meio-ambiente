@@ -61,6 +61,11 @@ O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos
 
 ![WhatsApp Image 2022-10-10 at 16 52 36](https://user-images.githubusercontent.com/114036574/194942429-7edad342-3247-4c33-b5b7-66b015cb640f.jpeg)
 
+# Atualização do quadro kanban
+
+![image](https://user-images.githubusercontent.com/114036574/200448891-244d5bde-b19c-4c2b-8b11-6163749b9cab.png)
+
+
 
 ### Ferramentas
 
