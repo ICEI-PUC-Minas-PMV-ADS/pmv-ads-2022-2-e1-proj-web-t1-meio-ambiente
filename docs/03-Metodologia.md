@@ -13,7 +13,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 | Ambiente | Plataforma | Link de Acesso |
 |----------|------------|----------------|
-| Repositório de código fonte | GitHub | Ainda não há um repositorio de código fonte.|
+| Repositório de código fonte | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t1-meio-ambiente/tree/main/src|
 | Documentos do projeto | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t1-meio-ambiente |
 | Projeto de Interface e  Wireframes | Canva | https://www.canva.com/design/DAFNieyI9Bc/zf-XYPpn1reo8C85i4zUww/edit?utm_content=DAFNieyI9Bc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton |
 | Gerenciamento do Projeto | Trello | https://trello.com/b/aSFR3E9z/projeto-de-reciclagemsave-the-planet |
