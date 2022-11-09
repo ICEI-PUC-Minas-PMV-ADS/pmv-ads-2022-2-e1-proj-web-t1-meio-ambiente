@@ -248,6 +248,202 @@ Artefatos da funcionalidade
 
 ● tree.svg
 
+Dados -
+
+INDEX _ HTML
+
+```html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-login">
+        <button class="home">Entrar sem login</button>
+        <div class="left-login">
+            <h1>Faça Login<br>e venha aprender<br>conosco</h1> 
+            <img src="tree.svg" class= "left-image" alt="tree">
+        </div>
+        <div class="right-login">
+            <div class="card-login">
+                <h1>LOGIN</h1>
+                <div class="textfield">
+                    <label for="usuario">Usuário</label>
+                    <input type="text" name="usuario" placeholder="Usuário">
+                </div>
+                <div class="textfield">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" placeholder="Senha">
+                </div>
+                <button class="btn-login">Login</button>
+                <button class="cadastro">Cadastre-se</button>
+            </div>
+        </div> 
+    </div>
+</body>
+</html>
+
+```
+
+
+STYLE_CSS
+
+
+```css
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background-color: #BCE1A4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home{
+    position: relative;
+    top: -40%;
+    right: 0;
+    left: 0;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 10px;
+    outline: none; 
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #91B679;
+    background: #1b8f59;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #1b8f59;
+}
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-login > h1 { 
+    color: rgb(0, 1, 2);
+}
+
+.left-image{
+    width: 35vw;
+
+}
+
+.right-login{       
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #1b8f59;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.card-login > h1{
+    color: #91B679;
+    font-weight: 800;
+    margin: 0;
+
+}
+
+.textfield{
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.textfield > input{
+    width: 100%;   
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #1b8f59;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label{
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+
+.textfield > input::placeholder{
+    color: #f0ffff94;
+}
+
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 10px;
+    outline: none; 
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #1b8f59;
+    background: #91B679;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px -10px #9ec286;
+
+}
+
+.cadastro{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 10px;
+    outline: none; 
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #1b8f59;
+    background: #91B679;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px -10px #9ec286;
+
+}
+
+```
+
 INSTRUÇÕES DE ACESSO
 
 1.	Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
@@ -982,7 +1178,19 @@ A tela de noticias apresenta noticias atualizadas no dia a dia referente ao Meio
 * index.html
 * style.css
    
+   #  FOOTER
    
+   O Rodapé traz informações Sobre qual intuito trazemos para o site e uma forma de contato com os integrantes do time, a forma de contato escolhida foi através do LinkedIn. A estruturas de dados se basea em HMTL e CSS. Exemplo do Rodaé:
+
+   
+   ![image](https://user-images.githubusercontent.com/93801572/200706182-a201bd15-dbed-4e44-8f54-df8cf0ecadc2.png)
+   
+   
+   - Artefatos da funcionalidade:
+     
+* index.html
+* style.css
+
 ```
 
 Instruções de acesso
