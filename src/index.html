@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Save The Planet">
+    <link rel="icon" type="image/x-icon" href="logo.png">
     <title>Save The Planet</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
     <!-- header section starts here-->
     <header class="header">
@@ -15,42 +20,68 @@
         </a>
 
         <div id="Busca">
-            <input type="text" id="txtBusca" placeholder="Buscar..."/>
+            <input type="text" id="txtBusca" placeholder="Buscar..." />
             <button id="btnBusca"></button>
         </div>
 
         <nav class="navbar">
             <a href="#home">home</a>
-            <a href="about">sobre</a>
-            <a href="contacts">contato</a>
+
         </nav>
 
-      
+
     </header>
 
     <main>
-        <div class="texto">
-            <h1>O MUNDO MUDA ATRÁVES DA EDUCAÇÃO!</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, laboriosam aspernatur beatae laborum nulla dolorem, est odio illum dicta nobis eos. Animi amet exercitationem minus illum sint architecto perspiciatis tenetur!
-            
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sit, unde cupiditate mollitia aliquid exercitationem dolores commodi dolore repellendus, ipsum consequatur neque eum sed deserunt placeat deleniti voluptates reiciendis temporibus.
-            </p>
-        </div>
+        <section class="section">
+            <h1>RECICLAR | CORES DAS LIXEIRAS | MEIO AMBIENTE | ENSINO FUNDAMENTAL | EDUCAÇÃO INFANTIL</h1>
 
-        <div class="icons">
-            <div id="icon1">
-                <img src="icon1.png" alt="Ícone de Lápis">
-                <!--Adicionar um link para a página depois-->
+            <div class="video">
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/6G6f2stDCN0"
+                    title="RECICLAR | CORES DAS LIXEIRAS | MEIO AMBIENTE | ENSINO FUNDAMENTAL | EDUCAÇÃO INFANTIL"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
             </div>
-            <div class="icon2">
-                <img src="icon2.png" alt="Ícone de vídeo">
-                <!--Adicionar um link para a página depois-->
+
+            <div class="atividade">
+
+                <h1>Atividade de fixação</h1>
+                <h3>Escolha a alternativa correta</h3>
+
             </div>
-            <div class="icon3">
-                <img src="icon3.png" alt="Ícone de localização">
-                <!--Adicionar um link para a página depois-->
-            </div>
-        </div>
+            <div class="perguntas">
+                <div id="wrapper">
+                    <div id="titulo"> </div>
+
+                    <ul>
+                        <b>
+                            <li class="alternativa"></li>
+                            <li class="alternativa"></li>
+                            <li class="alternativa"></li>
+                            <li class="alternativa"></li>
+                        </b>
+                    </ul>
+                    <b>
+                        <div id="result"></div>
+                        <div id="pontos"></div>
+                    </b>
+                </div>
+        </section>
+        <script type="text/javascript" src="script.js"></script>
+
+
+
     </main>
-</body>
+
+
+
+
+        </body>
+  
+
+
+
 </html>

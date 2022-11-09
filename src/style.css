@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap');
+@import url('https://www.remessaonline.com.br/blog/tabela-de-cores-html-veja-os-codigos-para-aplicar-cores-nas-tags-html/');
 
 * {
     font-family: 'Montserrat', sans-serif;
@@ -9,6 +10,7 @@
     border: none;
     text-decoration: capitalize;
     transition: 2s linear;
+    
 }
 
 .header{
@@ -18,7 +20,6 @@
     justify-content: space-between;
     padding: 1.5rem 7%;
     border-bottom: var(--border);
-    position: fixed;
     top: 0; left: 0; right: 0;
 }
 
@@ -55,17 +56,121 @@
 
 }
 
-.texto{
+.section{
     position: absolute;
     top: 10%;
-    width: 50%;
+    width: 100%;
     text-align: center-left;
     padding: 60px;
     border: none;
+}
 
+.video{
+    
+    display: table;
+    border: transparent thin solid;
+    padding: 1px;
+    width: 410px;
+    height: 410px;
+    position: fixed;
+    float: right;
 }
 
 
+.atividade{
+    display: table-cell;
+    align-items: right;
+    float: right;
+   
+    
+}
+
+#wrapper, .perguntas {
+    margin-top: 40px;
+    width: 100%;
+    display: table-cell;
+    flex-direction: column;
+    align-items: center;
+    float: right;
+    width: 300px;
+    margin-top: 5px;
+    margin-left: 589px;
+   
+    
+    
+}
+
+#wrapper div, #wrapper ul {
+    width: 50%;
+    max-width: 300px;
+    display: table-cell;
+    align-items: center;
+    float: right;
+    width: 300px;
+    margin-top: 5px;
+    
+    
+    
+    
+}
 
 
+ul {
+    padding: 0px;
+  
+}
 
+#titulo {
+    font-size: 18px;
+    font-weight: bold;
+    background: #32CD32;
+    padding: 10px;
+    width: 300px;
+    max-width: 300px;
+    text-align: center;
+    
+        
+}
+
+.alternativa {
+    list-style-type: none;
+    margin-bottom: 4px;
+    padding: 10px;
+    background: #32CD32;
+    text-align-last: center;
+    text-decoration-color: black;
+   
+       
+   
+
+}
+
+.alternativa:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    background: black;
+    
+   
+}
+
+#result {
+    font-weight: bold;
+    width: 20px;
+    max-width: 300px;
+    
+}
+
+#pontos, #result {
+    color: black;
+}
+
+.atividade{
+ 
+        font-family: 'Montserrat', sans-serif; 
+        font-size:20px;
+        margin: 0 ;
+        padding: 0 00%;
+        font-weight: 0;
+        text-align: center;
+        font-display: center;
+}
