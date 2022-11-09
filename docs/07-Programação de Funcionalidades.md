@@ -154,7 +154,6 @@ A tela de noticias apresenta noticias atualizadas no dia a dia referente ao Meio
 * index.html
 * style.css
 
-```
 
 Instruções de acesso
 Abra um navegador de Internet e informe a URL - http://127.0.0.1:5500/index.html
