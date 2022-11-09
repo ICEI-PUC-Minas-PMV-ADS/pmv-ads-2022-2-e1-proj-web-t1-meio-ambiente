@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: capitalize;
+    transition: 2s linear;
+}
+
+.header{
+    background: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    border-bottom: var(--border);
+    position: fixed;
+    top: 0; left: 0; right: 0;
+}
+
+.header .logo img{
+    height: 3.5rem;
+}
+
+.header .navbar a{
+    margin: 0 1rem;
+    font-size: 20px;
+    text-decoration: none;
+    justify-content: space-between;
+    font-weight: bold;
+    color: rgb(8, 8, 8);
+}
+
+#Busca{
+    background-color: #ffffff;
+    border: solid 1px #114d23;
+    border-radius: 5px;
+    width: 300px;
+    height: 32px;
+    padding: right 100px;
+}
+#txtBusca{
+    text-align: left;
+    align-items: center;
+    background-color: transparent;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    height: 28px;
+    width: 191px;
+
+}
+
+.texto{
+    position: absolute;
+    top: 10%;
+    width: 50%;
+    text-align: center-left;
+    padding: 60px;
+    border: none;
+
+}
+
+
+
+
+
