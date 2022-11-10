@@ -1,0 +1,65 @@
+   *{
+   
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+    }
+
+   .center{
+       display: flex;
+       max-width: 1100px;
+       margin: 0 auto;
+       padding: 0 2%;
+       flex-wrap; wrap;
+   }
+
+.about-header {
+    width: 100%;
+    background-color: #059054;
+}
+
+.about-header p{
+    color:white;
+    padding:8px
+
+}
+
+
+header h2 span {
+    color: #059054;
+}
+
+header h2{
+    font-size: 35px;
+    color:#222;
+}
+
+.logo{
+    margin-top:10px;
+}
+
+.wraper-header{
+    padding: 40px 0;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-ads {
+    width: 60%;
+    height: 100px;
+    background-color: #222;
+    position: relative;
+}
+
+.banner-ads h2{
+    position: absolute;
+    left:10px;
+    top:10px;
+    color: #222;
+    font-size: 15px;
+    font-style: italic;
+
+
+}
