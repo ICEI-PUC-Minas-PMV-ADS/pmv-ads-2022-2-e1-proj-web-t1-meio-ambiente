@@ -158,35 +158,27 @@
       text-decoration: none;
    }
     
-    .contato{
-      display: block;
-      list-style-type: none;
-      padding: 2em;
-      margin: 2em;
-    }
-
-    .contato p{
-      color: #d1d1d1;
-      font-size:15px;
-      text-align:center;
-    }
-
-   .footer-box  {
-    width: 31%;
-    padding: 0%;
-    float: left;
-    align-items:center;
-   }
-
-   .footer-box .wrapper:after {
+   .contato{
     display: block;
-   }
-   
-   .footer-bottom p{
-    font-family:  'Georgia' !important;  
-    margin-top: 40px;
-    width: 100px;
-    display: inline;
-    padding: 0 5%;
-    background-color: #114d23;
-   }
+    list-style-type: none;
+    padding: 2em;
+    margin: 2em;
+    font-weight: 550;
+  }
+
+  .contato p{
+    color: #d1d1d1;
+    font-size:15px;
+    text-align:center;
+  }
+
+  .footer-box  {
+      width: 31%;
+      padding: 0%;
+      float: left;
+      align-items:center;
+      }
+  
+
+
+  
