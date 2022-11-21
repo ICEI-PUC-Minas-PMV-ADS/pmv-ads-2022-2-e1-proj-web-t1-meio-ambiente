@@ -1,65 +1,42 @@
-   *{
-   
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-
-    }
-
-   .center{
-       display: flex;
-       max-width: 1100px;
-       margin: 0 auto;
-       padding: 0 2%;
-       flex-wrap; wrap;
+   footer {
+    background-color: forestgreen;
+    padding-top: 55px;
+    border-top: 5px solid rgb(16, 94, 46);
+    text-align: center; 
+    display:flex;
+    justify-content: center;
    }
+   
 
-.about-header {
-    width: 100%;
-    background-color: #059054;
-}
+    footer p {
+      color: #d1d1d1;
+      font-size:12px;
+      text-decoration: none;
+    }
+    
+    footer a {
+      color: #d1d1d1;
+      font-size:15px;
+      text-decoration: none;
+   }
+    
+   .contato{
+    display: block;
+    list-style-type: none;
+    padding: 2em;
+    margin: 2em;
+    font-weight: 550;
+  }
 
-.about-header p{
-    color:white;
-    padding:8px
+  .contato p{
+    color: #d1d1d1;
+    font-size:15px;
+    text-align:center;
+  }
 
-}
-
-
-header h2 span {
-    color: #059054;
-}
-
-header h2{
-    font-size: 35px;
-    color:#222;
-}
-
-.logo{
-    margin-top:10px;
-}
-
-.wraper-header{
-    padding: 40px 0;
-    width:100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.banner-ads {
-    width: 60%;
-    height: 100px;
-    background-color: #222;
-    position: relative;
-}
-
-.banner-ads h2{
-    position: absolute;
-    left:10px;
-    top:10px;
-    color: #222;
-    font-size: 15px;
-    font-style: italic;
-
-
-}
+  .footer-box  {
+      width: 31%;
+      padding: 0%;
+      float: left;
+      align-items:center;
+      }
