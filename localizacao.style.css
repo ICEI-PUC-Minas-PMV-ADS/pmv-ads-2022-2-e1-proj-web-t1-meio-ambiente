@@ -72,7 +72,7 @@
    
 }
 body{
-    background-color: #cfffca;
+    
     margin: 0px;
     padding: 0px;
 }
@@ -80,14 +80,13 @@ body{
 
 .mundo{
     display: none;
-    width: 100%;
-
+    width: 100%
 }
+
 h1 {
 margin-top: -4%;
-
-
 }
+
 h1{
     display: flex;
     justify-content: space-between;
@@ -104,10 +103,9 @@ h1{
     flex-direction: column;
     justify-content: space-around;
     width: 200px;
-
 }
-div .ponto1 {
 
+div .ponto1 {
     display: inline-block;
     width: 35em;
     background-color: #cce6d4;
@@ -119,9 +117,6 @@ div .ponto1 {
     border-radius: 10px;
     box-sizing: border-box;
     text-align:left;
-    
-
-
 }
 
 div .ponto2 {
@@ -137,8 +132,8 @@ div .ponto2 {
     border-radius: 10px;
     box-sizing: border-box;
     text-align:left;
-    
 }
+
 div .ponto3 {
 
     display: inline-block;
@@ -152,9 +147,6 @@ div .ponto3 {
     border-radius: 10px;
     box-sizing: border-box;
     text-align:left;
-    
-
-
 }
 
 div .ponto4 {
@@ -170,9 +162,6 @@ div .ponto4 {
     border-radius: 10px;
     box-sizing: border-box;
     text-align:left;
-
-
-
 }
 
 
