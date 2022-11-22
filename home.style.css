@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,800;1,500&display=swap');
 
 body{
-  background-color: #BCE1A4;
+  background-color: #cfffca;
 }
 * {
     font-family: 'Monserrat'; 
 }
 #header {
-    background: #7ab97a;
+    background: #1b8f59;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -146,22 +146,40 @@ footer {
 
   
 
-.footer-box  {
+  footer p {
+      color: #d1d1d1;
+      font-size:12px;
+      text-decoration: none;
+    }
+    
+    footer a {
+      color: #d1d1d1;
+      font-size:15px;
+      text-decoration: none;
+   }
+
+   
+   .footer-box  {
     width: 31%;
     padding: 0%;
     float: left;
     align-items:center;
+    }
+
+
+   .footer-box p{
+    display: block;
+    font-weight: 550;
    }
 
-   .footer-box .wrapper:after {
+   .contato{
     display: block;
-   }
-   
-   .footer-bottom p{
-    font-family:  'Georgia' !important;  
-    margin-top: 40px;
-    width: 100px;
-    display: inline;
-    padding: 0 5%;
-    background-color: #114d23;
-   }
+    list-style-type: none;
+    font-weight: 550;
+  }
+
+  .contato p{
+    color: white;
+    font-size:15px;
+    text-align:center;
+  }
