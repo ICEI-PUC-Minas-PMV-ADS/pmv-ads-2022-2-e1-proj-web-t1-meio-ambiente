@@ -22,7 +22,7 @@ html, body
 
 .header{
     background: var(--bg);
-    background-color:  #7ab97a;;
+    background-color:  #7ab97a;
     display: flex;
     align-items: center;
     justify-content: column;
@@ -98,7 +98,8 @@ html, body
 }
 
 
-.atv{       
+.atv{ 
+    background-color: #cfffca;
     width: 50vw;
     height: 100vh;
     display: flex;
