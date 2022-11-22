@@ -145,9 +145,9 @@ body{
    }
 
    footer {
-    background-color: #6b7971;
+    background-color:#6b7971;
     padding-top: 10px;
-    border-top: 2px solid rgb(174, 228, 194);
+    border-top: 2px solid rgb rgb(174, 228, 194);
     text-align: center; 
     display:flex;
     justify-content: center;
