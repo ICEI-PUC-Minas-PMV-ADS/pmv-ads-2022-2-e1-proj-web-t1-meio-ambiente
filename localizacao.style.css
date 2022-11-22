@@ -87,7 +87,7 @@ margin-top: -4%;
 
 }
 h1{
-
+    background-color: #cce6d4;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -109,7 +109,7 @@ div .ponto1 {
 
     display: inline-block;
     width: 35em;
-    background-color: #9df09d;
+    background-color: #cce6d4;
     vertical-align: top;
     margin: 8px;
     padding: 10px;
@@ -127,7 +127,7 @@ div .ponto2 {
 
     display: inline-block;
     width: 35em;
-    background-color: #9df09d;
+    background-color: #cce6d4;
     vertical-align: top;
     margin: 8px;
     padding: 10px;
@@ -142,7 +142,7 @@ div .ponto3 {
 
     display: inline-block;
     width: 35em;
-    background-color: #9df09d;
+    background-color: #cce6d4;
     vertical-align: top;
     margin: 8px;
     padding: 10px;
@@ -160,7 +160,7 @@ div .ponto4 {
 
     display: inline-block;
     width: 35em;
-    background-color: #9df09d;
+    background-color: #cce6d4;
     vertical-align: top;
     margin: 8px;
     padding: 10px;
