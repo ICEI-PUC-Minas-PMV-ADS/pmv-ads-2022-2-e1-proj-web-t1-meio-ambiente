@@ -13,7 +13,7 @@
 
 
 .header{
-    background: var(--bg);
+    background: #7ab97a;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -50,6 +50,8 @@
     width: 300px;
     height: 32px;
     padding: right 100px;
+    position: relative;
+    left: -30%;
 }
 #txtBusca{
     text-align: left;
