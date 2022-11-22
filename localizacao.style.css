@@ -70,16 +70,15 @@
    
 }
 body{
+    
     margin: 0px;
     padding: 0px;
-    background-color: #cfffca;
 }
 
 
 .mundo{
     display: none;
     width: 100%;
-    background-color: #cfffca;
 
 }
 h1 {
@@ -99,7 +98,6 @@ h1{
 }
 
 .container {
-    background-color: #cfffca;
     flex-direction: column;
     display: flex;
     flex-direction: column;
