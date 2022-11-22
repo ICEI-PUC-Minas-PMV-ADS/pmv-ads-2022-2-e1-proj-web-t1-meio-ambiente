@@ -60,11 +60,11 @@
     height: 28px;
     width: 191px;
   
-
 }
 .imagem{
  display: flex;
  width: 50%;
+}
  
 #container {
   margin-top: 5%;
