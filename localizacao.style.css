@@ -66,13 +66,14 @@
    
 }
 body{
-
+    background-color: #cfffca;
     margin: 0px;
     padding: 0px;
 }
 
 
 .mundo{
+    background-color: #cfffca;
     display: none;
     width: 100%
 }
