@@ -79,6 +79,7 @@ body{
 .mundo{
     display: none;
     width: 100%;
+    background-color: #cfffca;
 
 }
 h1 {
@@ -98,6 +99,7 @@ h1{
 }
 
 .container {
+    background-color: #cfffca;
     flex-direction: column;
     display: flex;
     flex-direction: column;
