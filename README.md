@@ -13,7 +13,6 @@ Sendo assim, o site trará materiais informativos sobre Educação ambiental, co
 ## Integrantes
 
 * GABRIELLY CRISTINY GONÇALVES ANDRADE 
-* JOSE FLÁVIO RESENDE MARQUES 
 * LUCAS MARCELO DIAS SOUZA 
 * LUIZ EDUARDO DE PAULA MORAIS 
 * PRICILLA BAIER DE ARAUJO
