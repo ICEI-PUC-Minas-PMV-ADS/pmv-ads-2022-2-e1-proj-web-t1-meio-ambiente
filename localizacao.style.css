@@ -64,6 +64,7 @@
 .imagem{
  display: flex;
  width: 50%;
+ float: right;
 }
  
 #container {
