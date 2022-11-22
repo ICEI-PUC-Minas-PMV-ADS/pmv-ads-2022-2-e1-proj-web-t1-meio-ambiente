@@ -13,3 +13,7 @@ location.href = "home.html";
 function home(){
     location.href = "home.html";
 }
+}
+function cadastro(){
+       location.href = "cadastro.html";
+}
