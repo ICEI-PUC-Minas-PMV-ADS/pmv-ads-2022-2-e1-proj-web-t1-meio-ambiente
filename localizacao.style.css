@@ -2,8 +2,7 @@
 @import url('https://www.remessaonline.com.br/blog/tabela-de-cores-html-veja-os-codigos-para-aplicar-cores-nas-tags-html/');
 
 * {
-    background-color: #cfffca;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     box-sizing: border-box;
     outline: none;
     border: none;
@@ -73,6 +72,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    background-color: #cfffca;
 }
 
 
