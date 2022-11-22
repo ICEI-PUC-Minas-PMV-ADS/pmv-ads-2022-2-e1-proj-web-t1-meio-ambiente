@@ -74,6 +74,11 @@
 body{
     margin: 0px;
     padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 1000px;
+    justify-content: space-around;
 }
 
 
