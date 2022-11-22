@@ -118,7 +118,7 @@ button {
 footer {
     background-color: #7ab97a;
     padding-top: 55px;
-    border-top: 5px solid rgb(16, 94, 46);
+    border-top: 5px solid;
     text-align: center; 
     display:flex;
     justify-content: center;
