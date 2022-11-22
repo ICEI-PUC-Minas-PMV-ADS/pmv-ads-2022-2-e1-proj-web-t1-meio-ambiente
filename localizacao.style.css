@@ -11,26 +11,19 @@
 }
 
 .header{
-    background: #7ab97a;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1.5rem 7%;
-    border-bottom: var(--border);
-    top: 0; left: 0; right: 0;
+  background: #7ab97a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 7%;
+  border-bottom: var(--border);
+  position: fixed;
+  top: 0; left: 0; right: 0;
 }
 
 .header .logo img{
     height: 3.5rem;
 }
-
-.header .imagem{
-    width: -20px;
-    height: 3.5rem;
-    float: left;
-   
-}
-
 
 .header .navbar a{
     margin: 0 1rem;
@@ -39,27 +32,39 @@
     justify-content: space-between;
     font-weight: bold;
     color: rgb(8, 8, 8);
-}
+   
+ }
 
-#Busca{
+  #Busca{
     background-color: #ffffff;
-    border: solid 1px #114d23;
+    border: solid 1px #1b8f59;
     border-radius: 5px;
     width: 300px;
     height: 32px;
     padding: right 100px;
     position: relative;
-    left: -30%;
-}
-#txtBusca{
+    left: -24%
+  }
+
+  #txtBusca{
     text-align: left;
     align-items: center;
     background-color: transparent;
     font-size: 15px;
-    border: 10px;
+    padding: 10px;
+    border: none;
     height: 28px;
     width: 191px;
-}
+  }
+
+ .section{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    text-align: center-left;
+    padding: 60px;
+    border: none;
+ }
  
 #container {
   margin-top: 5%;
