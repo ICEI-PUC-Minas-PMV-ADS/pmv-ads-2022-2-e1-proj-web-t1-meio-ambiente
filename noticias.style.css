@@ -43,7 +43,7 @@ body{
 
   #Busca{
     background-color: #ffffff;
-    border: solid 1px #90EE90;
+    border: solid 1px #1b8f59;
     border-radius: 5px;
     width: 300px;
     height: 32px;
@@ -145,7 +145,7 @@ body{
    }
 
    footer {
-    background-color: #6b7971;
+    background-color: #76837b;
     padding-top: 10px;
     border-top: 2px solid rgb(174, 228, 194);
     text-align: center; 
