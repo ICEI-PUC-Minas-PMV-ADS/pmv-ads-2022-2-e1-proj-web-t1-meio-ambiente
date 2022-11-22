@@ -180,13 +180,13 @@ body{
 
   footer p {
       color: black;
-      font-size:10px;
+      font-size:12px;
       text-decoration: none;
     }
     
     footer a {
       color: black;
-      font-size:15px;
+      font-size:12px;
       text-decoration: none;
    }
 
@@ -209,6 +209,6 @@ body{
 
   .contato p{
     color: black;
-    font-size:8px;
+    font-size:10px;
     text-align:center;
   }
