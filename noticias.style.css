@@ -96,10 +96,10 @@ body{
     height: 410px;
    }
 
-   h1{
+   #conteudo h1{
     text-align: left;
     font-family: 'Montserrat';
-    font-size: 35px;
+    font-size: 31px;
     align-items: left;
     padding: 10px;
     display: flex;
@@ -107,14 +107,16 @@ body{
    }
 
    h2 {
+    background-color: #cce6d4;
     text-align:center;
     font-family: 'Montserrat';
-    font-size: 30px;
+    font-size: 29,8px;
     align-items: center;
     padding: 8px;
     display: flex;
  }
    .center {
+    background-color: #cce6d4;
     text-align: center;
     font-family: 'Montserrat';
     font-size: 23px;
@@ -180,13 +182,13 @@ body{
 
   footer p {
       color: black;
-      font-size:12px;
+      font-size:10px;
       text-decoration: none;
     }
     
     footer a {
       color: black;
-      font-size:12px;
+      font-size:15px;
       text-decoration: none;
    }
 
@@ -209,6 +211,6 @@ body{
 
   .contato p{
     color: black;
-    font-size:10px;
+    font-size:8px;
     text-align:center;
   }
