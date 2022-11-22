@@ -43,13 +43,13 @@ body{
 
   #Busca{
     background-color: #ffffff;
-    border: solid 1px #90EE90;
+    border: solid 1px ##114d23;
     border-radius: 5px;
     width: 300px;
     height: 32px;
     padding: right 100px;
     position: relative;
-    left: -24%
+    left: -30%
   }
 
   #txtBusca{
