@@ -125,7 +125,7 @@ button {
 footer {
     background-color: #7ab97a;
     padding-top: 55px;
-    border-top: 5px solid;
+    border-top: 5px;
     text-align: center; 
     display:flex;
     justify-content: center;
