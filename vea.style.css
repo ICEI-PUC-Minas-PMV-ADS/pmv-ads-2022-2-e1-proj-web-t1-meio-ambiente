@@ -22,7 +22,7 @@ html, body
 
 .header{
     background: var(--bg);
-    background-color:  #1b8f59;
+    background-color:  #7ab97a;;
     display: flex;
     align-items: center;
     justify-content: column;
