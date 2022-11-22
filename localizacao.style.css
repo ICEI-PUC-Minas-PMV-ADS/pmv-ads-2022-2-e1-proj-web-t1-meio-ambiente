@@ -62,9 +62,9 @@
   
 }
 .imagem{
- display: flex;
- width: 50%;
- float: right;
+  float: right;
+  position: absolute;
+  right: 0px;
 }
  
 #container {
