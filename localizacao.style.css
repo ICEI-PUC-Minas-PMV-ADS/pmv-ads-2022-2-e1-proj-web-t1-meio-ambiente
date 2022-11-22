@@ -98,9 +98,12 @@ h1{
     color:black
 }
 
+.container {
+    flex-direction: column;
 
+}
+div .ponto1 {
 
-div{
     display: inline-block;
     width: 35em;
     background-color: #9df09d;
@@ -112,8 +115,62 @@ div{
     border-radius: 10px;
     box-sizing: border-box;
     text-align:left;
-    justify-content: space-between;
+    
+
+
 }
+
+div .ponto2 {
+
+    display: inline-block;
+    width: 35em;
+    background-color: #9df09d;
+    vertical-align: top;
+    margin: 8px;
+    padding: 10px;
+    line-height: 100%;
+    border: 1px solid #114d23;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align:left;
+    
+}
+div .ponto3 {
+
+    display: inline-block;
+    width: 35em;
+    background-color: #9df09d;
+    vertical-align: top;
+    margin: 8px;
+    padding: 10px;
+    line-height: 100%;
+    border: 1px solid #114d23;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align:left;
+    
+
+
+}
+
+div .ponto4 {
+
+    display: inline-block;
+    width: 35em;
+    background-color: #9df09d;
+    vertical-align: top;
+    margin: 8px;
+    padding: 10px;
+    line-height: 100%;
+    border: 1px solid #114d23;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align:left;
+
+
+
+}
+
 
 .btn{
     border: none;
@@ -141,3 +198,69 @@ background-color: #022702;
     color: #ffffff;
     background-color:#022702; ;
 }
+
+footer {
+    background-color: #7ab97a;
+    padding-top: 55px;
+    border-top: 5px;
+    text-align: center; 
+    display:flex;
+    justify-content: center;
+   }
+   
+
+    footer p {
+      color: black;
+      font-size:12px;
+      text-decoration: none;
+    }
+    
+    footer a {
+      color: black;
+      font-size:15px;
+      text-decoration: none;
+   }
+    
+    .contato{
+      display: flex;
+      justify-content: space-between;
+      padding: 2em;
+      margin: 2em;
+    }
+
+  
+
+  footer p {
+      color: black;
+      font-size:12px;
+      text-decoration: none;
+    }
+    
+    footer a {
+      color: #black;
+      font-size:12px;
+      text-decoration: none;
+   }
+
+   
+   .footer-box  {
+    width: 31%;
+    padding: 0%;
+    float: left;
+    align-items:center;
+    font-weight: 550;
+    }
+
+
+   .footer-box p{
+    display: block;
+    font-weight: 550;
+   }
+
+  
+
+  .contato p{
+    color: black;
+    font-size:10px;
+    text-align:center;
+  }
