@@ -5,6 +5,7 @@ html, body
 { 
  height: 100%;
  overflow-x: hidden
+   background-color: #BCE1A4;
 }
 
 * {
