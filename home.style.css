@@ -138,17 +138,13 @@ footer {
    }
     
     .contato{
-      display: block;
-      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
       padding: 2em;
       margin: 2em;
     }
 
-    .contato p{
-      color: #d1d1d1;
-      font-size:15px;
-      text-align:center;
-    }
+  
 
 .footer-box  {
     width: 31%;
