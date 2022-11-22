@@ -161,3 +161,51 @@ html, body
     padding: 5% 0 0 0;
 }
 
+footer {
+    background-color: #76837b;
+    padding-top: 10px;
+    border-top: 2px solid rgb(174, 228, 194);
+    text-align: center; 
+    display:flex;
+    justify-content: center;
+   }
+   
+
+    footer p {
+      color: #d1d1d1;
+      font-size:12px;
+      text-decoration: none;
+    }
+    
+    footer a {
+      color: #d1d1d1;
+      font-size:15px;
+      text-decoration: none;
+   }
+
+   
+   .footer-box  {
+    width: 31%;
+    padding: 0%;
+    float: left;
+    align-items:center;
+    }
+
+
+   .footer-box p{
+    display: block;
+    font-weight: 550;
+   }
+
+   .contato{
+    display: block;
+    list-style-type: none;
+    font-weight: 550;
+  }
+
+  .contato p{
+    color: white;
+    font-size:15px;
+    text-align:center;
+  }
+
