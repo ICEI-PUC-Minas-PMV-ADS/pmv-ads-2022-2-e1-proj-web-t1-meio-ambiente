@@ -161,7 +161,7 @@ footer {
     
     footer a {
       color: #black;
-      font-size:10px;
+      font-size:15px;
       text-decoration: none;
    }
 
@@ -184,6 +184,6 @@ footer {
 
   .contato p{
     color: black;
-    font-size:15px;
+    font-size:10px;
     text-align:center;
   }
