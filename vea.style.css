@@ -99,7 +99,7 @@ html, body
 
 
 .atv{       
-
+    background-color: #BCE1A4;
     width: 50vw;
     height: 100vh;
     display: flex;
@@ -121,7 +121,6 @@ html, body
 }
 
 .atividade{
-    background-color: #BCE1A4;
     width: 80%;
     height: 90%;
     display: flex;
