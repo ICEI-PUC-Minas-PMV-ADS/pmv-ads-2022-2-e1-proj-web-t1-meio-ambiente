@@ -2,12 +2,9 @@
 @import url('https://www.remessaonline.com.br/blog/tabela-de-cores-html-veja-os-codigos-para-aplicar-cores-nas-tags-html/');
 
 
-body{
-  background-color: #BCE1A4;
-}
-
 html, body 
 { 
+ background-color: #BCE1A4;
  height: 100%;
  overflow-x: hidden
 }
