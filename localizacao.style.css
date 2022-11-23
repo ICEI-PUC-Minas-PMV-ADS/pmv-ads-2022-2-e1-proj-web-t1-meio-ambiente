@@ -94,9 +94,9 @@ h1{
 .container {
     flex-direction: column;
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
     width: 200px;
+    float: right;
 }
 
 div .ponto1 {
@@ -110,7 +110,7 @@ div .ponto1 {
     border: 1px solid #114d23;
     border-radius: 10px;
     box-sizing: border-box;
-    text-align:right;
+    text-align:left;
 }
 
 div .ponto2 {
