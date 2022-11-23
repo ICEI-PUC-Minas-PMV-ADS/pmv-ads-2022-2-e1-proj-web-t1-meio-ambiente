@@ -1,13 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap');
 @import url('https://www.remessaonline.com.br/blog/tabela-de-cores-html-veja-os-codigos-para-aplicar-cores-nas-tags-html/');
 
-
-html, body 
-{ 
- height: 100%;
- overflow-x: hidden
-}
-
 * {
     font-family: 'Montserrat';
     margin: 0;
