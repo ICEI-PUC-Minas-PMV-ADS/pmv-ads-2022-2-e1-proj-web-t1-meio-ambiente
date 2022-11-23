@@ -70,10 +70,18 @@ body{
     padding: 0px;
 }
 
-
 .mundo{
     display: none;
     width: 100%
+}
+
+.imagem{
+    
+    float: left;
+    border: transparent thin solid;
+    padding: 5px;
+    width: 410x;
+    height: 410px;
 }
 
 h1 {
@@ -92,6 +100,10 @@ h1{
 
 .container {
     flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    float: right;
 }
 
 div .ponto1 {
