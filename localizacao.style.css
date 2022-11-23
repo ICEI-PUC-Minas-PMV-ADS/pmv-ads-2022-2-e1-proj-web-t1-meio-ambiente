@@ -102,7 +102,7 @@ h1{
     flex-direction: column;
     display: flex;
     justify-content: space-around;
-    width: 100px;
+    width: 200px;
     float: right;
 }
 
