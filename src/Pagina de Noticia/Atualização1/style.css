@@ -1,23 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap');
 
+* {
+  margin:0;
+  padding:0
+}
 
 body{
-  background-color: #BCE1A4;
+  background-color: #cfffca;
 }
 
 * {
     font-family: 'Montserrat';
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     outline: none;
     border: none;
     text-decoration: capitalize;
     transition: 2s linear;
+    
 }
 
 .header{
-  background: #60c560;
+  background: #7ab97a;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -43,7 +46,7 @@ body{
 
   #Busca{
     background-color: #ffffff;
-    border: solid 1px #90EE90;
+    border: solid 1px #1b8f59;
     border-radius: 5px;
     width: 300px;
     height: 32px;
@@ -72,10 +75,6 @@ body{
     border: none;
  }
 
- #imagem-content {
-    display: inline-block;
- }
-
  
  #container {
   margin-top: 5%;
@@ -94,10 +93,10 @@ body{
     height: 410px;
    }
 
-   h1{
+   #conteudo h1{
     text-align: left;
     font-family: 'Montserrat';
-    font-size: 35px;
+    font-size: 31px;
     align-items: left;
     padding: 10px;
     display: flex;
@@ -105,14 +104,16 @@ body{
    }
 
    h2 {
+    background-color: #cce6d4;
     text-align:center;
     font-family: 'Montserrat';
-    font-size: 30px;
+    font-size: 29,8px;
     align-items: center;
     padding: 8px;
     display: flex;
  }
    .center {
+    background-color: #cce6d4;
     text-align: center;
     font-family: 'Montserrat';
     font-size: 23px;
@@ -122,7 +123,8 @@ body{
     position: relative;
    }
 
-  p {
+   .center p {
+      background-color: #cce6d4;
       text-align: left;
       font-family: 'Montserrat';
       font-size: 16px;
@@ -130,7 +132,7 @@ body{
       font-display: center;
       padding: 6%;
       margin:00px;
-   
+     font-weight: 200;
     }
     
 
@@ -144,54 +146,67 @@ body{
     font-display: center;
    }
 
-   footer {
-    background-color: #6b7971;
-    padding-top: 10px;
-    border-top: 2px solid rgb(174, 228, 194);
-    text-align: center; 
-    display:flex;
-    justify-content: center;
-   }
    
+footer {
+  background-color: #7ab97a;
+  padding-top: 55px;
+  border-top: 5px;
+  text-align: center; 
+  display:flex;
+  justify-content: center;
+ }
+ 
 
-    footer p {
-      color: #d1d1d1;
-      font-size:12px;
-      text-decoration: none;
-    }
-    
-    footer a {
-      color: #d1d1d1;
-      font-size:15px;
-      text-decoration: none;
-   }
-
-   
-   .footer-box  {
-    width: 31%;
-    padding: 0%;
-    float: left;
-    align-items:center;
-    }
-
-
-   .footer-box p{
-    display: block;
-    font-weight: 550;
-   }
-
-   .contato{
-    display: block;
-    list-style-type: none;
-    font-weight: 550;
+  footer p {
+    color: black;
+    font-size:12px;
+    text-decoration: none;
   }
-
-  .contato p{
-    color: white;
-    font-size:15px;
-    text-align:center;
-  }
-
-
-
   
+  footer a {
+    color: black;
+    font-size:15px;
+    text-decoration: none;
+ }
+  
+  .contato{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    margin: 2em;
+  }
+
+footer p {
+    color: black;
+    font-size:12px;
+    text-decoration: none;
+  }
+  
+  footer a {
+    color: black;
+    font-size:12px;
+    text-decoration: none;
+ }
+
+ 
+ .footer-box  {
+  width: 31%;
+  padding: 0%;
+  float: left;
+  align-items:center;
+  font-weight: 550;
+  }
+
+
+ .footer-box p{
+  display: block;
+  font-weight: 550;
+ }
+
+
+
+.contato p{
+  color: black;
+  font-size:10px;
+  text-align:center;
+}
