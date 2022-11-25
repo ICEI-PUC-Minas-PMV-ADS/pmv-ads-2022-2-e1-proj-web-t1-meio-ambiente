@@ -12,7 +12,6 @@ body{
     text-decoration: capitalize;
     transition: 2s linear;
 }
-
 #header {
     background: #7ab97a;
     display: flex;
