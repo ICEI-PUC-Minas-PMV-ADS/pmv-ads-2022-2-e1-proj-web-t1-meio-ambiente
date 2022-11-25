@@ -2,68 +2,68 @@
 @import url('https://www.remessaonline.com.br/blog/tabela-de-cores-html-veja-os-codigos-para-aplicar-cores-nas-tags-html/');
 
 body{
-  background-color: #cfffca;
+  background-color: #BCE1A4;
 }
+
 * {
     font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     outline: none;
     border: none;
     text-decoration: capitalize;
     transition: 2s linear;
-}
-#header {
-    background: #7ab97a;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1.5rem 7%;
-    border-bottom: var(--border);
-    position: fixed;
-    top: 0; left: 0; right: 0;
+    
 }
 
-#header .logo img {
+.header{
+  background: #7ab97a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 7%;
+  border-bottom: var(--border);
+  position: fixed;
+  top: 0; left: 0; right: 0;
+}
+
+.header .logo img{
     height: 3.5rem;
 }
 
-#header .navbar a{
-    margin: 0 1rem;
-}
-
-#header .navbar a{
+.header .navbar a{
     margin: 0 1rem;
     font-size: 20px;
     text-decoration: none;
     justify-content: space-between;
     font-weight: bold;
     color: rgb(8, 8, 8);
+   
+ }
 
-}
+  #Busca{
+    background-color: #ffffff;
+    border: solid 1px #1b8f59;
+    border-radius: 5px;
+    width: 300px;
+    height: 32px;
+    padding: right 100px;
+    position: relative;
+    left: -24%
+  }
 
-#busca {
-  background-color: #ffff;
-  border: solid 1px #114d23;
-  border-radius: 5px;
-  width: 300px;
-  height: 32px;
-  padding: right 100px;
-}
-
-#txtbusca {
-  text-align: left;
-  align-items: center;
-  background-color: transparent;
-  font-size: 15px;
-  border: 10px;
-  height: 28px;
-  width: 191px;
-  
-}
-#btnbusca {
-  align-items: flex-end;
-}
-
+  #txtBusca{
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    height: 28px;
+    width: 191px;
+  }
   input, label {
     display: block;
     outline: none;
@@ -75,7 +75,7 @@ body{
   }
   
   body {
-    padding-top: 5vh;
+    padding-top: 20vh;
     background-image: url('../img/bg-register-page.jpg');
     background-size: cover;
     background-position-y: -150px;
@@ -83,29 +83,26 @@ body{
   
   /* form */
   #main-container {
-    width: 450px;
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 80px;
     background-color: #FFF;
     border-radius: 10px;
-    padding:10px;
+    padding: 25px;
     position: relative;
-    height: 500px;
-    top: -500%;
-    right: 0px;
+    top: -40%;
+    right: 0;
     left: 0;
     border: none;
     border-radius: 10px;
     outline: none; 
     text-transform: uppercase;
-    font-weight: 100px;
+    font-weight: 800;
     letter-spacing: 2px;
     color: #91B679;
     background: #1b8f59;
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px #1b8f59;
-    float: right;
   }
 
   
@@ -113,7 +110,6 @@ body{
     text-align: center;
     margin-bottom: 25px;
     font-size: 1.6rem;
-    
   }
   
   form {
@@ -143,10 +139,12 @@ body{
   }
   
   input {
-    border-radius: 2px solid #323232;
+    border-radius: 10px;
     padding: 10px;
     font-size: .9rem;
     margin-bottom: 40px;
+    margin-top: 10px;
+    
   }
   
   input:focus {
@@ -181,4 +179,4 @@ body{
   .template {
     display: none;
   }
-  
+
