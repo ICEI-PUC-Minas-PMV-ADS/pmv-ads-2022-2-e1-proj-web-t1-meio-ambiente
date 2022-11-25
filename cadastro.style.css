@@ -78,12 +78,11 @@ body{
     padding-top: 20vh;
     background-image: url('../img/bg-register-page.jpg');
     background-size: cover;
-    background-position-y: -150px;
   }
   
   /* form */
   #main-container {
-    width: 700px;
+    width: 900px;
     margin-left: auto;
     margin-right: auto;
     background-color: #FFF;
