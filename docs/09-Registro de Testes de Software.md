@@ -10,7 +10,8 @@ Teste senha incorreta!
 
 Teste de cadastro!
 
-![cadastro](https://user-images.githubusercontent.com/114036574/204057389-fe2e3ad2-9cd1-4c73-a06f-e4cd40583da2.png)
+![cadastro](https://user-images.githubusercontent.com/114036574/204057902-8ece6905-ae95-436b-a930-c92488c6d288.png)
+
 
 
 <span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
