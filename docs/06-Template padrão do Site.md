@@ -5,7 +5,7 @@ O padrão de layout a ser utilizado pelo site tem correspondência ao projeto de
 
 O template criado está disponível no site [http://github.com/…..](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-2-e1-proj-web-t1-meio-ambiente/cadastro.html)  e é composto pelos seguintes layouts: 
 
-A responsividade segue o padrão do Bootstrap
+
 Tela Principal
 
 Tela que abrange todas as visualizações iniciais do site e a lista de notícias gerais.
