@@ -54,16 +54,12 @@ html, body
 
 }
 
-element.style{
-    margin-left: 250px;
-}
-
 #Busca{
     background-color: #ffffff;
     border: solid 1px #114d23;
     border-radius: 5px;
-    width: 300px;
-    height: 32px;
+    width: 30%;
+    height: 100%;
     padding: right 20%;
     padding: left 30%;
    
