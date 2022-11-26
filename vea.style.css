@@ -1,9 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,800;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap');
 @import url('https://www.remessaonline.com.br/blog/tabela-de-cores-html-veja-os-codigos-para-aplicar-cores-nas-tags-html/');
 
-body{
-  background-color: #cfffca;
-}
 * {
     font-family: 'Montserrat';
     box-sizing: border-box;
@@ -13,37 +10,38 @@ body{
     transition: 2s linear;
 }
 
-#header {
+.header{
     background: #7ab97a;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1.5rem 7%;
     border-bottom: var(--border);
-    position: fixed;
     top: 0; left: 0; right: 0;
 }
 
-#header .logo img {
+.header .logo img{
     height: 3.5rem;
 }
 
-#header .navbar a{
-    margin: 0 1rem;
+.header .imagem{
+    width: -20px;
+    height: 3.5rem;
+    float: left;
+   
 }
 
-#header .navbar a{
+.header .navbar a{
     margin: 0 1rem;
     font-size: 20px;
     text-decoration: none;
     justify-content: space-between;
     font-weight: bold;
     color: rgb(8, 8, 8);
-
 }
 
-#busca {
-    background-color: #ffff;
+#Busca{
+    background-color: #ffffff;
     border: solid 1px #114d23;
     border-radius: 5px;
     width: 300px;
@@ -52,8 +50,7 @@ body{
     position: relative;
     left: -30%;
 }
-
-#txtbusca {
+#txtBusca{
     text-align: left;
     align-items: center;
     background-color: transparent;
@@ -61,7 +58,6 @@ body{
     border: 10px;
     height: 28px;
     width: 191px;
-    
 }
 
 .main{
