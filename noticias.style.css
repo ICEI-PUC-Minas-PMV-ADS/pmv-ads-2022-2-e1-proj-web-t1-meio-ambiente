@@ -94,17 +94,21 @@ body{
    }
 
    #conteudo h1{
-    padding: 200px, 25px, 50px, 25px;
     text-align: left;
     font-family: 'Montserrat';
-    font-size: 32px;  
+    font-size: 31px;
+    align-items: left;
+    padding: 15px; 
+    display: flex;
+    position: relative;
+    margin-top: 150px;
    }
 
    h2 {
     background-color: #cce6d4;
     text-align:center;
     font-family: 'Montserrat';
-    font-size: 25px;
+    font-size: 29,8px;
     align-items: center;
     padding: 8px;
     display: flex;
