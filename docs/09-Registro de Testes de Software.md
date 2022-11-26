@@ -10,15 +10,15 @@ Roberta testa Home page e página de localização;
 
 Gabrielly testa página de noticias;
 
-#Teste da página de login senha correta!
+# Teste da página de login senha correta!
 
 ![login sucesso](https://user-images.githubusercontent.com/114036574/204045323-c88ef794-f193-40bf-8739-7650e61c89f6.png)
 
 
-#Teste da página de login senha incorreta!
+# Teste da página de login senha incorreta!
 ![login erro](https://user-images.githubusercontent.com/114036574/204045376-4fda1878-6b07-403e-a03b-a0c0773d1317.png)
 
-#Teste da página de cadastro!
+# Teste da página de cadastro!
 
 ![cadastro](https://user-images.githubusercontent.com/114036574/204057902-8ece6905-ae95-436b-a930-c92488c6d288.png)
 
