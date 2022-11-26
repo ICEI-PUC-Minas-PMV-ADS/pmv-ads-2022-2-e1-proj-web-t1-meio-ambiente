@@ -1,5 +1,15 @@
 # Registro de Testes de Software
 
+Foi dividido para cada integrante do grupo para testar a página que o outro fez. Deste modo ficou na ordem a seguir:
+
+Lucas testa página de vídeo e atividade de fixação;
+
+Pricilla testa página de login e cadastro;
+
+Roberta testa Home page e página de localização;
+
+Gabrielly testa página de noticias;
+
 Teste senha correta!
 
 ![login sucesso](https://user-images.githubusercontent.com/114036574/204045323-c88ef794-f193-40bf-8739-7650e61c89f6.png)
