@@ -60,9 +60,10 @@ html, body
     border-radius: 5px;
     width: 300px;
     height: 32px;
+    margin-left: 250px;
     padding: right 20%;
     padding: left 30%;
-    position: relative;
+   
 }
 
 #txtBusca{
