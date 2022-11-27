@@ -79,17 +79,6 @@ body{
     width: 100%
 }
 
-#titulo{
-     text-align: left;
-    font-family: 'Montserrat';
-    font-size: 31px;
-    align-items: left;
-    padding: 15px; 
-    display: flex;
-    position: relative;
-    margin-top: 150px;
-}
-
 .container {
     flex-direction: column;
     display: flex;
