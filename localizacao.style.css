@@ -77,7 +77,7 @@ body{
     display: flex;
     position: relative;
     margin-top: 200px;
-
+}
 .mundo{
     display: none;
     width: 100%
