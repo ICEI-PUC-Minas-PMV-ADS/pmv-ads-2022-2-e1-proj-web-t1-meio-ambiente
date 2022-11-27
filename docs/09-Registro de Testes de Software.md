@@ -22,7 +22,13 @@ Gabrielly testa página de noticias;
 
 ![cadastro](https://user-images.githubusercontent.com/114036574/204057902-8ece6905-ae95-436b-a930-c92488c6d288.png)
 
+# Teste da página Home Page!
 
+![image](https://user-images.githubusercontent.com/93801572/204114042-172662dd-7647-487b-8abd-36d0f073c7e2.png)
+
+# Teste da página Localização!
+
+![image](https://user-images.githubusercontent.com/93801572/204114084-aa00d1af-20d3-4e07-a463-00abec218b09.png)
 
 
 <span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
