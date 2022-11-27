@@ -79,7 +79,7 @@ body{
     width: 100%
 }
 
-h1{
+.titulo{
      text-align: left;
     font-family: 'Montserrat';
     font-size: 31px;
