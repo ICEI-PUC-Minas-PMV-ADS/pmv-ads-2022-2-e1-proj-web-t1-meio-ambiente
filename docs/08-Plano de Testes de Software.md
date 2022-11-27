@@ -57,9 +57,6 @@ Requisitos Associados
 usuário localizar um texto específico que será informado na caixa
 de pesquisa.
 
-● RNF-003O site deve permitir a localização de pontos de coleta próximos,
-integrado ao Google Maps para facilitar a visualização do local.
-
 Objetivo do Teste
 
 Verificar se consegue logar corretamente ao site para conseguir salvar noticias e vídeos preferidos.
@@ -75,5 +72,48 @@ Critérios de Êxito
 
 ● Ao acessar a Home Page, o usuario poderá visualizar informações interativas na pagian inicial e ser direcionado para demais opções.
 
+
+# Pagina Localização
+
+Os requisitos para realização dos testes de software são:
+
+● Site publicado na Internet
+
+● Navegador da Internet - Chrome, Firefox, Edge ou Opera
+
+● Pagina de Localização
+
+
+Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
+Caso de Teste CT-01 - Entrar na pagina de localização e visualizar os pontos de coletas.
+
+Requisitos Associados
+
+● RF-005 O site deve ter uma funcionalidade de pesquisa para permitir ao
+usuário localizar um texto específico que será informado na caixa
+de pesquisa
+
+● RF-005 O site deve ter uma funcionalidade de pesquisa para permitir ao
+usuário localizar um texto específico que será informado na caixa
+de pesquisa.
+
+● RF-003 site deve permitir a localização de pontos de coleta próximos,
+integrado ao Google Maps para facilitar a visualização do local.
+
+Objetivo do Teste
+
+Verificar se consegue logar corretamente ao site para conseguir salvar noticias e vídeos preferidos.
+
+1) Acessar o Navegador
+2) Informar o endereço do Site
+3) Visualizar a página principal
+4) Informar o login e a senha
+5) Após logar com ou sem senha na aba de Login, o usuario será direcionado para tela inicial Home Page
+6) Uma vez na tela inicial o usuario poderá navegar até a aba de Localização, clicando no icone de " Localização"
+
+
+Critérios de Êxito
+
+● Ao acessar o icone de Localização, o usuario navegará até a aba de Localização.
 
 
