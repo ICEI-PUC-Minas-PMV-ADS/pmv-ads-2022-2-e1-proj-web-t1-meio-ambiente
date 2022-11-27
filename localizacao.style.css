@@ -80,14 +80,14 @@ body{
 }
 
 h1{
+     text-align: left;
+    font-family: 'Montserrat';
+    font-size: 31px;
+    align-items: left;
+    padding: 15px; 
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    top: 10%;
-    margin-top: -4%;
-    width: 50%;
-    padding: 60px;
-    color:black
+    position: relative;
+    margin-top: 150px;
 }
 
 .container {
