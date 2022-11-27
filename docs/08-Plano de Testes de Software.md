@@ -117,3 +117,37 @@ Critérios de Êxito
 ● Ao acessar o icone de Localização, o usuario navegará até a aba de Localização.
 
 
+# Pagina de Vídeos e Atividades
+
+ Os requisitos para realização dos testes de software são:
+
+● Site publicado na Internet
+
+● Navegador da Internet - Chrome, Firefox, Edge ou Opera.
+
+● Vídeos e atividaes> Permite o usuário acesso à um vídeo educativo e atividades de fixação.
+
+Requisitos Associados
+
+● RF-004	O site deve oferecer vídeos sobre lixo reciclável, entre outros temas.
+● RF-008	O site deve conter atividade objetivas sobre os temas abordados, com justificativas em cada alternativa para estimular a curiosidade e interatividade do usuário.
+
+Objetivo do Teste
+
+testar o player do vídeo e verificar se a dinâmica de resposta das atividades estão funcionando.
+
+1) Acessar o Navegador
+2) Informar o endereço do Site
+3) Visualizar a página principal
+4) Informar o login e a senha.
+5) Após logar com ou sem senha na aba de Login, o usuario será direcionado para tela inicial Home Page.
+6) Clicar na página de vídeos e atividades.
+7) Assistir o vídeo no site e logo após responder as perguntas.
+
+Critérios de Êxito
+
+● Ao entra na página o usuário ser capaz de assistir o vídeo no player dentro do próprio site e então responder as perguntas com as contabilizações de acertos de forma correta.
+
+
+
+
