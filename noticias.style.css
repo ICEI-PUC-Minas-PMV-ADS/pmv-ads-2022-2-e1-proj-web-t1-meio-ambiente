@@ -20,7 +20,7 @@ body{
 }
 
 .header{
-  background: #7ab97a;
+  background-color: #7ab97a;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -75,22 +75,12 @@ body{
     border: none;
  }
 
- 
- #container {
-  margin-top: 5%;
- }
-
-    #conteudo .section{
-    padding: 5%;
-    margin:0px;
-  }
-
     .container img {
     float: left;
     border: transparent thin solid;
     padding: 5px;
-    width: 410x;
-    height: 410px;
+    width: 415px;
+    height: 400px;
    }
 
    #conteudo h1{
@@ -108,20 +98,20 @@ body{
     background-color: #cce6d4;
     text-align:center;
     font-family: 'Montserrat';
-    font-size: 29,8px;
+    font-size: 28px;
     align-items: center;
-    padding: 8px;
+    padding: 0px;
     display: flex;
  }
    .center {
+    align-items: center;
     background-color: #cce6d4;
-    text-align: center;
+    border-left: solid 5px rgb(247, 90, 90);
+    display: flex;
     font-family: 'Montserrat';
     font-size: 23px;
-    align-items: center;
-    padding: 20px;
-    display: flex;
-    position: relative;
+    padding:0;
+    text-align: center;
    }
 
    .center p {
