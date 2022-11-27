@@ -172,6 +172,7 @@ Requisitos Associados
 ● RF-005 O site deve ter uma funcionalidade de pesquisa para permitir ao
 usuário localizar um texto específico que será informado na caixa
 de pesquisa.
+
 ● RF-004	O site deve oferecer vídeos sobre lixo reciclável, entre outros temas.
 
 Objetivo do Teste
