@@ -164,6 +164,7 @@ Os requisitos para realização dos testes de software são:
 
 
 Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
+
 Caso de Teste CT-01 - Viasualizar notícas e acontecimentos recentes através da Página de Notícias.
 
 Requisitos Associados
