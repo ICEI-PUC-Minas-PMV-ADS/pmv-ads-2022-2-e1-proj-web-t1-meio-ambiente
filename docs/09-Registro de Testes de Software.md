@@ -37,6 +37,14 @@ Gabrielly testa página de noticias;
 
 ![image](https://user-images.githubusercontent.com/97044440/204144806-9cc06379-df47-4c23-aff3-ca0b7b084f6c.png)
 
+# Teste da página de Vídeo e Atividades!
+![image](https://user-images.githubusercontent.com/89558202/204144936-820aa91b-617b-4104-9498-fdc34fa61c82.png)
+
+Player Funcionando:
+![image](https://user-images.githubusercontent.com/89558202/204144960-670c44e9-9fe1-423b-b8a3-c1c2e05bd5a1.png)
+
+Atividade funcionando:
+![image](https://user-images.githubusercontent.com/89558202/204144974-c96f5cb8-2560-4516-9ca6-4e467e689e92.png)
 
 
 
