@@ -66,7 +66,18 @@ body{
 #container {
 margin-top: 5%;
  }
-   
+
+   #titulo{
+    text-align: left;
+    font-family: 'Montserrat';
+    font-size: 31px;
+    align-items: left;
+    padding: 15px; 
+    display: flex;
+    position: relative;
+    margin-top: 150px;
+}
+
 body{
     margin: 0px;
     padding: 0px;
