@@ -152,5 +152,40 @@ Critérios de Êxito
 ● Ao entra na página o usuário ser capaz de assistir o vídeo no player dentro do próprio site e então responder as perguntas com as contabilizações de acertos de forma correta.
 
 
+# Página de Notícias
+
+Os requisitos para realização dos testes de software são:
+
+● Site publicado na Internet
+
+● Navegador da Internet - Chrome, Firefox, Edge ou Opera.
+
+● Página de notícias> Mostra notícias recentes da área de reciclagem e meio ambiente postadas no site.
+
+
+Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
+Caso de Teste CT-01 - Viasualizar notícas e acontecimentos recentes através da Página de Notícias.
+
+Requisitos Associados
+
+● RF-005 O site deve ter uma funcionalidade de pesquisa para permitir ao
+usuário localizar um texto específico que será informado na caixa
+de pesquisa.
+● RF-004	O site deve oferecer vídeos sobre lixo reciclável, entre outros temas.
+
+Objetivo do Teste
+
+Verificar se o usuário consegue ir até a página de Notícias, visualiza-la corretamente e usar a barra de pesquisa.
+
+1) Acessar o o site.
+2) Visualizar a Home Page.
+3) Clicar no ícone de Notícias.
+4) Clicar na barra de pesquisa e escrever.
+6) Caso o usuaria deseja navegar nas funcionalidades ele terá a opção de retornar a aba inicial sempre que desejar pela opção na Home da pagina.
+
+Critérios de Êxito
+
+● Ao acessar a Home Page, o usuario poderá  acessar a Página de Notícias, após isso, mo usuário poderá visualizar a página e utilizar suas funcionalidades de pesquisa.
+
 
 
