@@ -78,6 +78,11 @@ body{
     position: relative;
     margin-top: 200px;
 }
+h1 {
+    display: flex;
+    font-size: 2em;
+   margin-top: 200px;
+}
 .mundo{
     display: none;
     width: 100%
