@@ -32,6 +32,12 @@ Gabrielly testa página de noticias;
 
 ![image](https://user-images.githubusercontent.com/93801572/204114642-e26a5e68-957e-4573-8605-85a751ff954b.png)
 
+# Teste da página de Notícias!
+![image](https://user-images.githubusercontent.com/97044440/204144791-d84fc099-f93e-434a-8814-060fad2c4d6e.png)
+
+![image](https://user-images.githubusercontent.com/97044440/204144806-9cc06379-df47-4c23-aff3-ca0b7b084f6c.png)
+
+
 
 
 
