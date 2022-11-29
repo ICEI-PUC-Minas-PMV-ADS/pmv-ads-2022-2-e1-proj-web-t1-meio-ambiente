@@ -3,9 +3,9 @@ function logar(){
     var login = document.getElementById('login').value;
     var senha = document.getElementById('senha').value;
 
-    if(login == "admin" && senha  == "admin"){
+     if(login == "allicirp@gmail.com" && senha  == "Pri235689" || login == "roberta.freitas90@gmail.com" && "Abacaxi21" ){
 alert('Login efetuado com sucesso');
-location.href = "home.html";
+    location.href = "home.html";
     }
     else{
         alert('Usuário ou senha incorreta');
