@@ -65,6 +65,8 @@ O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos
 
 ![image](https://user-images.githubusercontent.com/114036574/200448891-244d5bde-b19c-4c2b-8b11-6163749b9cab.png)
 
+![image](https://user-images.githubusercontent.com/114036574/204672648-40c57934-e48b-4b79-a97c-bc2d224f9511.png)
+
 
 
 ### Ferramentas
