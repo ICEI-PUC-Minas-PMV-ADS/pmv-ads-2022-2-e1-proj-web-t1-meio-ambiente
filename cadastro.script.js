@@ -196,7 +196,4 @@ class Validator {
     
   });
 
-function login(){
-  alert('Cadastro efetuado com sucesso');
-    location.href = "index.html";
-}
+
