@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,800;1,500&display=swap');
+@import url('https://www.remessaonline.com.br/blog/tabela-de-cores-html-veja-os-codigos-para-aplicar-cores-nas-tags-html/');
+
+body{
+  background-color: #cfffca;
+}
+* {
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: capitalize;
+    transition: 2s linear;
+}
+
+#header {
+    background: #7ab97a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    border-bottom: var(--border);
+    position: fixed;
+    top: 0; left: 0; right: 0;
+}
+
+#header .logo img {
+    height: 3.5rem;
+}
+
+#header .navbar a{
+    margin: 0 1rem;
+}
+
+#header .navbar a{
+    margin: 0 1rem;
+    font-size: 20px;
+    text-decoration: none;
+    justify-content: space-between;
+    font-weight: bold;
+    color: rgb(8, 8, 8);
+
+}
+
+#busca {
+    background-color: #ffff;
+    border: solid 1px #114d23;
+    border-radius: 5px;
+    width: 300px;
+    height: 32px;
+    padding: right 100px;
+    position: relative;
+    left: -30%;
+}
+
+#txtbusca {
+    text-align: left;
+    align-items: center;
+    background-color: transparent;
+    font-size: 15px;
+    border: 10px;
+    height: 28px;
+    width: 191px;
+    
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.titulo{
+    text-align: left;
+    font-family: 'Montserrat';
+    font-size: 31px;
+    align-items: left;
+    padding: 15px; 
+    display: flex;
+    position: relative;
+    margin-top: 200px;
+}
+h1 {
+    display: flex;
+    font-size: 2em;
+   margin-top: 200px;
+}
+.mundo{
+    display: none;
+    width: 100%
+}
+
+.container {
+    flex-direction: column;
+    display: flex;
+    
+}
+
+div .ponto1 {
+    display: inline-block;
+    width: 35em;
+    background-color: #cce6d4;
+    vertical-align: top;
+    margin: 8px;
+    padding: 10px;
+    line-height: 100%;
+    border: 1px solid #114d23;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align:left;
+}
+
+div .ponto2 {
+
+    display: inline-block;
+    width: 35em;
+    background-color: #cce6d4;
+    vertical-align: top;
+    margin: 8px;
+    padding: 10px;
+    line-height: 100%;
+    border: 1px solid #114d23;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align:left;
+}
+
+div .ponto3 {
+
+    display: inline-block;
+    width: 35em;
+    background-color: #cce6d4;
+    vertical-align: top;
+    margin: 8px;
+    padding: 10px;
+    line-height: 100%;
+    border: 1px solid #114d23;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align:left;
+}
+
+div .ponto4 {
+
+    display: inline-block;
+    width: 35em;
+    background-color: #cce6d4;
+    vertical-align: top;
+    margin: 8px;
+    padding: 10px;
+    line-height: 100%;
+    border: 1px solid #114d23;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align:left;
+}
+
+
+.btn{
+    border: none;
+    padding: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 3px;
+    float: right;
+   margin: 10px;
+}
+
+.btn{
+    background-color: #114d23;
+    outline-color: none;
+    color: aliceblue; 
+}
+
+.btn:hover{
+background-color: #022702;
+
+}.btn:active{
+    color: #ffffff;
+    background-color:#022702; ;
+}
+
+footer {
+  background-color: #7ab97a;
+  padding-top: 55px;
+  border-top: 5px;
+  text-align: center; 
+  display:flex;
+  justify-content: center;
+ }
+ 
+
+  footer p {
+    color: black;
+    font-size:12px;
+    text-decoration: none;
+  }
+  
+  footer a {
+    color: black;
+    font-size:15px;
+    text-decoration: none;
+ }
+  
+  .contato{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    margin: 2em;
+  }
+
+
+
+footer p {
+    color: black;
+    font-size:12px;
+    text-decoration: none;
+  }
+  
+  footer a {
+    color: #black;
+    font-size:12px;
+    text-decoration: none;
+ }
+
+ 
+ .footer-box  {
+  width: 31%;
+  padding: 0%;
+  float: left;
+  align-items:center;
+  font-weight: 550;
+  }
+
+
+ .footer-box p{
+  display: block;
+  font-weight: 550;
+ }
+
+
+.contato p{
+  color: black;
+  font-size:10px;
+  text-align:center;
+}
