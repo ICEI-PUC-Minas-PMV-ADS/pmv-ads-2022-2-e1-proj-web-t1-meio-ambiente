@@ -22,7 +22,10 @@ O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do conte
 ## Conjunto de Slides (Estrutura)
 
 
+link do slide: 
+
 https://www.canva.com/design/DAFUTmnRqOE/Xe31bvd9MBb0heO9nUydsA/edit?utm_content=DAFUTmnRqOE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
 
 
 
