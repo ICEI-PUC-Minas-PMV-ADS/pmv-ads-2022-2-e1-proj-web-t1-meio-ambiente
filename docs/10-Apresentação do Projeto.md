@@ -8,7 +8,7 @@
 
 ## Título do Projeto
 
-Nome e marca do projeto
+Save The Planet
 
 ## Identidade Visual (Marca, Design)
 
