@@ -23,7 +23,8 @@ O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do conte
 
 https://www.canva.com/design/DAFUTmnRqOE/Xe31bvd9MBb0heO9nUydsA/edit?utm_content=DAFUTmnRqOE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t1-meio-ambiente/blob/main/presentation/WhatsApp%20Video%202022-12-10%20at%2022.43.30.mp4
+
+
 
 O grupo deve distribuir de forma coerente o conteúdo a ser apresentado, dentro do tempo determinado. Importante ressaltar a importância da descrição clara de todo o andamento do projeto, insumos gerados e requisitos atendidos.
  
